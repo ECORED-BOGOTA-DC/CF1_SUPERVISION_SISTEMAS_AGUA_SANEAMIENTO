@@ -17,3 +17,81 @@
 
   100%
     transform: translateY(0px)
+
+//Estilos Introduccion
+
+.bg1-intro
+  background-image: url("../assets/curso/temas/introduccion/bgr2.png")
+  background-size: 100% 100%
+
+//Estilos tema 1
+
+.bg1-tema1
+  background-color: #D4ECFC 
+  background-size: 100% 100%
+
+//Estilos Tema 2
+
+.bg-tarjeta
+  background-color: #D5E3F0 !important
+.font-color
+  color: $black !important
+
+//Estilos Tema 3
+
+// cajon-color---------------
+
+.cajon.color-primario
+    background-color: #FFECD5
+
+.bg1-tema3
+  background-image: url("../assets/curso/temas/tema3/bg1.png")
+  background-repeat: no-repeat
+  background-size: 20% 100%
+
+.bg1-tema3-v2
+  background-image: url("../assets/curso/temas/tema3/bg1.png")
+  background-repeat: no-repeat
+  background-size: 40% 100%
+
+///////// Card hover --------------------------------------
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: $color-primario
+  
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
+
+
+.color-titulo-azul
+  color: #4DB1F0 !important
+
+///// Custom acordeon A tipo A -------------------------------------- 
+.tarjeta.acordeonA
+  background-color: #E4F3FD
+
+.acordion__accion__btn--a
+  background-color: #ffff !important
+
+.acordion__activo
+  background-color: #D5E3F0 !important
+
+  
+.bgDescarga
+  background-image: url("../assets/curso/temas/tema3/bgDescarga.png")
+  background-size: 100% 100%
