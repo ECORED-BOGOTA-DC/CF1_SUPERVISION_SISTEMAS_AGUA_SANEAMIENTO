@@ -2,13 +2,27 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    width: 60px
+    top: 10%
+    right: 75%
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: scale 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    width: 60px
+    top: 72%
+    right: 8%  
+  &-3
+    width: 70px
+    animation: rotation 28s infinite linear
+    position: absolute
+    top: 18%
+    right: 28%
+  &-4
+    width: 100px
+    animation: float2 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 76%
+    left: -10%
 
 
 @keyframes float1
@@ -17,6 +31,39 @@
 
   100%
     transform: translateY(0px)
+
+@keyframes scale
+  0%
+    transform: scale(1)
+
+  100%
+    transform: scale(1.2)
+
+@keyframes float2
+  0%
+    transform: translateX(20px)
+
+  100%
+    transform: translateX(0px)
+
+@keyframes rotation  
+  100%
+    transform: rotate(359deg)
+
+
+.banner-principal__img
+  width: 470px !important
+  padding-bottom: 0rem !important
+  padding-top: 5rem !important
+
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/banner-interno.png") !important
+
+//Estilos globales
+
+.texto-negro 
+  color: #12263F !important
+
 
 //Estilos Introduccion
 
@@ -53,6 +100,11 @@
   background-image: url("../assets/curso/temas/tema3/bg1.png")
   background-repeat: no-repeat
   background-size: 40% 100%
+
+.bg2-tema3-v2
+  background-image: url("../assets/curso/temas/tema3/bg1.png")
+  background-repeat: no-repeat
+  background-size: 55% 100%
 
 ///////// Card hover --------------------------------------
 .crd_hover_txt
@@ -95,3 +147,11 @@
 .bgDescarga
   background-image: url("../assets/curso/temas/tema3/bgDescarga.png")
   background-size: 100% 100%
+
+//punto caliente--------
+
+.img-infografica__item
+  width: 4%
+
+.tarjeta--amarilla
+  background-color: #FFF0DF

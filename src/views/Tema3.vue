@@ -7,12 +7,14 @@
         span 3
       h1 Bases conceptuales de muestreo
 
-    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
-      .bloque-texto-g__img(
-        :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img1.png')})`}"
-      )
-      .bloque-texto-g__texto.p-4
-        p.mb-0 La actividad de análisis de muestras de agua se enfoca en la necesidad de mantener un monitoreo constante de los recursos hídricos, ya que las actividades del ser humano generan transformaciones ambientales que si no se miden no se lograrían dimensionar ni controlar.  
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-10
+        .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-4
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img1.png')})`}"
+          )
+          .bloque-texto-g__texto.p-4
+            p.mb-0 La actividad de análisis de muestras de agua se enfoca en la necesidad de mantener un monitoreo constante de los recursos hídricos, ya que las actividades del ser humano generan transformaciones ambientales que si no se miden no se lograrían dimensionar ni controlar.  
 
     .row.mt-5
       p A continuación, se presenta un video que nos introduce las bases conceptuales de muestreo y medición.
@@ -297,9 +299,9 @@
                 h3.mb-1 Normas aplicadas
                 p.text-small Para ampliar información acerca de la toma de muestras en aguas marinas se recomienda consultar la NTC-ISO 5667-9 sobre Gestión ambiental. Calidad del agua. Guía para el muestreo de aguas marinas.
               .col-sm-auto
-                a.boton.color-acento-contenido(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                  span Descargar
-                  i.fas.fa-file-download
+                a.boton.color-primario(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  span.texto-negro Descargar
+                  i.fas.fa-file-download.texto-negro
         
     .row.bg1-tema3-v2.align-items-center.mt-5
       h4.text-white.mt-2 Técnicas de Manos Limpias (ML)/Manos Sucias (MS)
@@ -313,11 +315,123 @@
 
         p Los procedimientos de muestreo limpios, incluidas las técnicas de ML/MS, son necesarios cuando se recogen muestras inorgánicas para determinar la presencia de metales y otros oligoelementos. Los procedimientos de muestreo limpio se recomiendan para todos los demás muestreos, en la medida en que resulte razonable, pero particularmente cuando el objeto analizado, podría estar sujeto a contaminación en el terreno o de los procedimientos de laboratorio a un nivel que podría sobrepasar la demanda química de oxígeno (DQO) con fines de información e interpretación.
 
-    .row.justify-content-center.align-items-center.mt-3 
+    .row.justify-content-center.align-items-center.mt-3.mb-5
       .col-8
         .cajon.color-primario.p-4
           p Las técnicas ML/MS separan las funciones en el terreno y dedican un individuo como <b><i>"manos limpias"</i></b> para tareas relacionadas con tener contacto directo con la muestra.
-          
+
+    .row.mb-5
+      p  A continuación, se presenta la figura que  resume estas técnicas:
+
+    .row.mb-5
+      .titulo-sexto.color-acento-contenido.mb-0
+        h5 Figura 1 
+        span Técnicas  de Manos limpias / Manos sucias        
+    ImagenInfografica.color-acento-contenido
+      template(v-slot:imagen)
+        figure
+          img(src='@/assets/curso/temas/tema3/img29.svg', alt='alt')
+
+      .tarjeta.tarjeta--blanca.p-3(x="17%" y="30.3%" numero="")
+        .h5.mb-2 MS
+        p MS se encarga de todas las operaciones que relaciona con entrar en contacto con posibles fuentes de contaminación; por ejemplo, MS: trabaja exclusivamente en el exterior de las cámaras del procesamiento y preservación, prepara y opera el equipo de muestreo, incluidas las bombas y muestras discretas, el interruptor de bomba peristáltica, el controlador de bombas y el sistema distribuidor.
+
+      .tarjeta.tarjeta--blanca.p-3(x="85%" y="30.3%" numero="")
+        .h5.mb-2 ML
+        p ML se encarga de todas las operaciones que se relacionan con equipos que entran en contacto con la muestra; por ejemplo, ml: maneja la botella de la muestra de agua de superficie, maneja el extremo de descarga del tubo o la línea de la muestra de agua de superficie, transfiere la muestra al separador de embudo, prepara un espacio de trabajo limpio (dentro del vehículo), prepara las cámaras de procesamiento y preservació
+
+    .row.bg1-tema3-v2.align-items-center.mt-5
+      h4.text-white.mt-2 Técnica muestreo tomado al azar
+
+    .row.justify-content-center.align-items-center.mt-5
+      .col-4
+        figure
+          img(src='@/assets/curso/temas/tema3/img30.svg', alt='alt')
+      .col-8 
+        p La última técnica a mencionar es la que se basa en una muestra que se toma totalmente al azar, por medio de un recipiente abierto: El cual se coloca en un solo punto en la superficie (arroyo, embalse, río etc.), estas muestras por lo general se toman antes de hacer otro trabajo en el lugar para no afectar la corriente y la posterior recolección; para esta técnica se utilizan muestreadores colectores que suelen pararse corriente abajo de la botella durante la operación de llenado, evitando que entren partículas que estén suspendidas  (NTC 5667-2, 1995).
+
+    .mb-5
+      p Para reforzar las técnicas puede apoyarse de la ISO 5667-2 Gestión ambiental. Calidad del agua. Muestreo. Técnicas generales de muestreo.
+
+    .row.mb-5
+      .tarjeta.bgDescarga.p-4.mb-5
+        .row.justify-content-around.align-items-center
+          .col-3.col-sm-2.col-lg-1
+            img(src="@/assets/curso/temas/tema3/img27.svg")
+          .col
+            .row.justify-content-between.align-items-center
+              .col.mb-3.mb-sm-0
+                p.texto-blanco Si es de su interés ampliar la información puede ir al material complementario y consultar el video sobre la #[b metodología para realizar un muestreo integrado en un río.]
+              .col-sm-auto
+                a.boton.color-primario(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  span.texto-negro Enlace
+                  i.fas.fa-link.texto-negro
+
+    .row.bg2-tema3-v2.align-items-center.mb-5
+      h4.text-white.mt-2 Precauciones para la toma de la muestra en función de su origen.
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-8
+        p Estas recomendaciones son elementales a la hora de tomar muestras, la primera es enjuagar el envase por lo menos 2 o 3 veces con el agua a muestrear antes de tomar la muestra definitiva.
+
+        p Las demás recomendaciones sugeridas se distribuyen teniendo la fuente de muestreo que pueden ser superficiales (ríos, arroyos, canales, represas, lagos, aljibes) o subterráneas (pozos calzados o de balde, perforaciones), las cuales son atribuidas por el Instituto Nacional de Tecnología Agropecuaria [INTA] (2011), en el protocolo de muestreo, transporte y conservación de muestras de agua con fines múltiples de Argentina, pero que son aplicables a cualquier país, a saber:
+      
+      .col-lg-4
+        figure
+          img(src='@/assets/curso/temas/tema3/img31.svg', alt='alt')        
+
+    .tarjeta.tarjeta--amarilla.p-5
+      SlyderA(tipo="b")
+        .row
+          .col-md-6.mb-4.mb-md-0
+            h4 Agua de red:
+            p para la toma de una muestra de agua de red se abrirá el grifo o canilla y se dejará que el agua corra el tiempo suficiente de manera de tener purgada toda la cañería que llega desde el tanque, el ramal donde se encuentre el grifo debe ser el principal, proveniente de la red, y no debe estar conectado en el trayecto con otras cañerías, filtros, ablandadores u otros artefactos que puedan alterar la calidad del agua del ramal principal.
+
+          .col-md-6
+            figure
+              img(src='@/assets/curso/temas/tema3/img32.svg', alt='alt')
+
+        .row
+          .col-md-6.mb-4.mb-md-0
+            h4 Agua de perforaciones o pozos calzados:
+            p la muestra se debe tomar de la cañería inmediata al pozo y es conveniente que, antes de proceder a la toma de la muestra, la impulsión se mantenga en marcha el tiempo suficiente que contemple la profundidad del o de los acuíferos, hasta que el agua emerja clara (sin sedimentos ni restos vegetales) y que sea del acuífero. Se debe prestar especial atención a esto si el pozo estuviera en desuso. 
+
+          .col-md-6
+            figure
+              img(src='@/assets/curso/temas/tema3/img33.svg', alt='alt')
+            
+        .row
+          .col-md-6.mb-4.mb-md-0
+            h4 Agua superficial proveniente de un curso de agua en movimiento:
+            p debe ponerse especial atención en buscar puntos estratégicos de muestreo (puentes, alcantarillas, botes, muelles), ya que se debe muestrear de sitios donde el agua se encuentre en circulación. Nunca es recomendable muestrear desde donde se encuentra estancada.
+
+          .col-md-6
+            figure
+              img(src='@/assets/curso/temas/tema3/img34.svg', alt='alt')
+
+        .row
+          .col-md-6.mb-4.mb-md-0
+            h4 Agua superficial proveniente de un espejo de agua (represa o lago):
+            p en estos casos, se puede proyectar una jabalina a unos 2 metros de la orilla, para no muestrear del borde, evitando tomar la muestra de la capa superficial o del fondo. Sumergir el frasco en el agua (incorporando un peso) con el cuello hacia abajo hasta una profundidad de 15 a 30 cm, destapar y girar el frasco ligeramente permitiendo el llenado. Retirar el frasco después que no se observe ascenso de burbujas.
+
+          .col-md-6
+            figure
+              img(src='@/assets/curso/temas/tema3/img35.svg', alt='alt')
+
+        .row
+          .col-md-6.mb-4.mb-md-0
+            h4 Tanque de almacenamiento:
+            p tomar la muestra bajando el frasco dentro del pozo hasta una profundidad de 15 a 30 cm. desde la superficie libre del líquido, evitando en todo momento tocar las paredes del pozo. Cuando no es posible tomar la muestra directamente con la mano, debe atarse al frasco un sobrepeso usando el extremo de un cordel limpio o en su caso equipo muestreador comercial.
+
+          .col-md-6
+            figure
+              img(src='@/assets/curso/temas/tema3/img36.svg', alt='alt')
+
+
+
+
+
+
             
 
 
