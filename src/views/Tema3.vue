@@ -428,11 +428,381 @@
               img(src='@/assets/curso/temas/tema3/img36.svg', alt='alt')
 
 
+    separador
+    #t_3_2.titulo-segundo.color-acento-contenido
+       h2 3.2 Tamaño de la muestra
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-4
+        figure.mb-4
+          img(src='@/assets/curso/temas/tema3/img37.svg', alt='alt')  
+
+      .col-lg-8
+        p Generalmente se recomienda trabajar con un volumen mínimo de 2 litros. Sin embargo, el volumen de muestra requerido puede variar en función del tipo y número de análisis fisicoquímico a desarrollar, así como de las concentraciones de los analitos (INS, 2011, p.44). Particularmente el volumen requerido es determinado por el laboratorio teniendo en cuenta que el volumen base puede ser analizado por duplicado o triplicado.
+
+        .cajon.color-primario.p-4.mb-3
+          p.mb-0 El volumen mínimo requerido para cada determinación en laboratorio puede ser consultado en el Standard Methods for the Examination of Water and Wastewater, en el capítulo correspondiente a recolección de muestras (Collection of Samples).      
+
+        p.mb-4 Es recomendable, tener en cuenta el uso de diferentes envases para la recolección del volumen de muestra teniendo en cuenta las condiciones de recolección y transporte en específico. En todo caso, se requerirá atender normas técnicas y normatividad aplicable.
+
+      p Para realizar el análisis microbiológico se recomienda tener en cuenta la cantidad de agua a muestrear, como se presenta en la siguiente tabla:  
+
+    .titulo-sexto.color-acento-contenido 
+      h5 Tabla 1
+      spam Tamaño de muestra según el tipo de agua a muestrear y ensayo a realizar.
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-10
+        .tabla-a.color-azul
+          table
+            thead
+              tr
+                th Ensayo microbiológico
+                th Tipo de muestra
+                th Volumen de muestrav
+            tbody
+              tr
+                td Bacterias totales.
+                  br
+                  | Coliformes totales Termotolerancia de coliformes.
+                  br
+                  | Estreptococcos fecales.
+                  br
+                  | Shigella spp.
+                td Agua potable, superficial, recreacional, agua residual.
+                td 100 ml por cada ensayo.
+              tr
+                td Bacterias totales coliformes totales Termotolerancia de coliformes, Estreptococcos fecales, Shigella spp.
+                td Agua en recipiente
+                td 250 ml por cada ensayo.
+              tr
+                td Legionela spp. Salmonella spp.
+                td Agua potable, superficial, recreacional, agua residual.
+                td 1 L
+              tr
+                td Cryptosporidium y Giardia.
+                td Agua cruda
+                td 10 L
+              tr
+                td Cryptosporidium y Giardia
+                td Agua tratada
+                td 50- 100 L
+
+    .row.mb-5
+      p Una vez definido el tamaño de la muestra se sugiere revisar los siguientes pasos prácticos para la toma de la misma. Se debe recordar que estos pueden variar dependiendo del objetivo del muestreo, del sitio, presupuesto y elementos que se tengan a disposición, para el INTA esos pasos son:
+
+    ImagenInfografica.color-acento-botones
+      template(v-slot:imagen)
+        figure
+          img(src='@/assets/curso/temas/tema3/img38.svg', alt='alt')  
+
+      .tarjeta.tarjeta-amarilla.p-3(x="19.5%" y="45.3%" numero="")
+        .row
+          .col-lg-2.mb-3
+            figure
+              img(src='@/assets/curso/temas/tema3/img39.svg', alt='alt')          
+          
+          p Cerrar el envase asegurando su cierre hermético.
+
+      .tarjeta.tarjeta-amarilla.p-3(x="26.7%" y="64%" numero="")
+        .row
+          .col-lg-2.mb-3
+            figure
+              img(src='@/assets/curso/temas/tema3/img40.svg', alt='alt')          
+          
+          p Si no estaba rotulada la botella rotularla con tinta indeleble. Siempre tener papel y cinta adhesiva para emergencias o muestras no planificadas.
+
+      .tarjeta.tarjeta-amarilla.p-3(x="38%" y="33%" numero="")
+        .row
+          .col-lg-2.mb-3
+            figure
+              img(src='@/assets/curso/temas/tema3/img41.svg', alt='alt')          
+          
+          p Enjuagar 2 a 3 veces con la fuente de agua que se va a muestrear, desechando el agua de enjuague.
+
+      .tarjeta.tarjeta-amarilla.p-3(x="40%" y="67%" numero="")
+        .row
+          .col-lg-2.mb-3
+            figure
+              img(src='@/assets/curso/temas/tema3/img42.svg', alt='alt')          
+          
+          p Que el envase tenga una capacidad de por lo menos 1 litro.
+
+      .tarjeta.tarjeta-amarilla.p-3(x="72%" y="11%" numero="")
+        .row
+          .col-lg-2.mb-3
+            figure
+              img(src='@/assets/curso/temas/tema3/img43.svg', alt='alt')          
+          
+          p Si el envase está rotulado verificar que sea el correcto.
+
+      .tarjeta.tarjeta-amarilla.p-3(x="73.4%" y="38.7%" numero="")
+        .row
+          .col-lg-2.mb-3
+            figure
+              img(src='@/assets/curso/temas/tema3/img44.svg', alt='alt')          
+          
+          p Guardar la muestra en lugar fresco (interior de un vehículo) o en conservadora si fuera necesario y llevarla al laboratorio en el menor tiempo posible (se recomienda como tiempo máximo de entrega a laboratorio de 4 días) (2011, p.5).
+
+      .tarjeta.tarjeta-amarilla.p-3(x="64%" y="57%" numero="")
+        .row
+          .col-lg-2.mb-3
+            figure
+              img(src='@/assets/curso/temas/tema3/img45.svg', alt='alt')          
+          
+          p Recoger la muestra sin dejar cámara de aire. Se puede dejar un mínimo sin llenar que permita la variación de volumen debida a potenciales diferencias térmicas. Si se le va a agregar algún conservante contemplar el volumen necesario para el mismo.
+
+    separador
+    #t_3_3.titulo-segundo.color-acento-contenido
+       h2 3.3 Tipos de ensayos
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-4
+        figure.mb-4
+          img(src='@/assets/curso/temas/tema3/img46.svg', alt='alt')  
+
+      .col-lg-8
+        p Los ensayos in situ, son los ensayos o mediciones que realizan de algunos parámetros en campo, que por su naturaleza si no se realiza de manera inmediata los resultados arrojados posteriormente no serán verídicos, para agua de consumo humano se encuentran dentro de estos parámetros: la temperatura, el olor, el sabor, el cloro residual libre y el pH (INS, 2011, p.46); sin embargo,  para otros tipos de aguas como las residuales o las superficiales, estos también son aplicables para mediciones in situ incluyendo conductividad, turbidez y oxígeno disuelto, la medición de estos se realiza con el equipo multiparamétrico.
+
+        p Estas mediciones se realizan generalmente, haciendo uso de equipos portátiles como sondas multiparamétricas, pHmetros y conductímetros; pero, se debe resaltar que para hacer estos análisis siempre se debe llevar a cabo bajo las indicaciones de revisión y calibración de los equipos.
+
+    .row.mb-5
+      p A continuación, de acuerdo con el (Invemar, 2013, p.24), se puede observar la explicación de algunos parámetros medidos in situ:
+
+    .row.mt-5  
+      SlyderF(columnas="col-lg-6 col-xl-4")
+        .tarjeta.tarjeta--naranja.p-4
+          .row.justify-content-center.mb-3
+            .col-8.col-lg-6
+              img(src='@/assets/curso/temas/tema3/img47.svg' alt='AvatarTop')
+
+          h4.text-center Oxígeno disuelto: 
+
+          p.text-center este parámetro proporciona una medida de la cantidad de oxígeno disuelto en el agua. Mantener una concentración adecuada de oxígeno disuelto en el agua es importante para la supervivencia de los peces y otros organismos de vida acuática.
+
+        .tarjeta.tarjeta--naranja.p-4
+          .row.justify-content-center.mb-3
+            .col-8.col-lg-6
+              img(src='@/assets/curso/temas/tema3/img48.svg' alt='AvatarTop')
+
+          h4.text-center Conductividad:
+ 
+          p.text-center en una muestra de agua es una medida de la capacidad que tiene la solución para transmitir corriente eléctrica. Esta capacidad depende de la presencia, movilidad, valencia y concentración de iones, así como de la temperatura del agua.
+
+        .tarjeta.tarjeta--naranja.p-4
+          .row.justify-content-center.mb-3
+            .col-8.col-lg-6
+              img(src='@/assets/curso/temas/tema3/img49.svg' alt='AvatarTop')
+          
+          h4.text-center pH: 
+
+          p.text-center es una medida de la concentración de iones de hidrógeno en el agua. Aguas fuera del rango normal de 6 a 9 pueden ser dañinas para la vida acuática. Estos niveles de pH pueden causar perturbaciones celulares y la eventual destrucción de la flora y fauna acuática. (Invemar, 2013, p.22)
+
+        .tarjeta.tarjeta--naranja.p-4
+          .row.justify-content-center.mb-3
+            .col-8.col-lg-6
+              img(src='@/assets/curso/temas/tema3/img50.svg' alt='AvatarTop')
+
+          h4.text-center Temperatura: 
+ 
+          p.text-center juega un papel muy importante en la solubilidad de los gases, en la disolución de las sales y por lo tanto en la conductividad eléctrica, en la determinacón de pH, en el conocimiento del origen de agua y de las eventuales mezclas, etc. (Invemar, 2013, p.21).
+
+        .tarjeta.tarjeta--naranja.p-4
+          .row.justify-content-center.mb-3
+            .col-8.col-lg-6
+              img(src='@/assets/curso/temas/tema3/img51.svg' alt='AvatarTop')
+          
+          h4.text-center Turbidez:
+
+          p.text-center el agua turbia es provocada por la materia insoluble, en suspensión o dispersión coloidal. Es un fenómeno óptico que consiste esencialmente en una absorción de luz combinado con un proceso de difusión. (Invemar, 2013, p.26).
+
+    separador
+    #t_3_4.titulo-segundo.color-acento-contenido
+       h2 3.4 Puntos de tomas de muestras
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-4
+        figure.mb-4
+          img(src='@/assets/curso/temas/tema3/img52.svg', alt='alt')  
+
+      .col-lg-8
+        p El personal de monitoreo deberá obtener toda la información posible y de manera detallada acerca de las estaciones del recurso hídrico a monitorear, generalmente esta información es proporcionada por el cliente, ello servirá para planear todo el procedimiento de muestreo.
+
+        b.mb-0 La ubicación de los puntos de muestreo deberá cumplir los siguientes criterios: 
+        p Se debe establecer teniendo en cuenta el artículo 2° de la Resolución 0811 de 2008, anexo técnico número 2 en la cual se especifica que la localización de los puntos de recolección depende de su objetivo, si es para muestras de agua para consumo humano en la red de distribución deberá determinarse bajo las siguientes características:
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-8
+        LineaTiempoD.color-acento-contenido
+          .row(numero="1" titulo="Determinar el punto en común")
+            .col-md-6.mb-4.mb-md-0
+              p Determinar el punto en común acuerdo entre las personas prestadoras y la respectiva autoridad sanitaria.
+          
+            .col-md-6
+              figure
+                img(src='@/assets/curso/temas/tema3/img53.svg', alt='alt') 
+
+          .row(numero="2" titulo="Establecer puntos fijos")
+            .col-md-6.mb-4.mb-md-0
+              p Inmediatamente después del accesorio o componente donde terminan las tuberías de conducción y se inicia la red de distribución, en el extremo más alejado de la red que sea más representativo en calidad del agua y a la salida de la infraestructura ubicada en la red de distribución que pueda representar un riesgo de contaminar el agua.
+          
+            .col-md-6
+              figure
+                img(src='@/assets/curso/temas/tema3/img54.svg', alt='alt') 
+                
+          .row(numero="3" titulo="Establecer puntos de interés general")
+            .col-md-6.mb-4.mb-md-0
+              p Localizar puntos de muestreo teniendo en cuenta que representen el funcionamiento hidráulico del sistema.
+          
+            .col-md-6
+              figure
+                img(src='@/assets/curso/temas/tema3/img56.svg', alt='alt') 
+
+      .col-lg-4
+        figure
+          img(src='@/assets/curso/temas/tema3/img57.svg', alt='alt')         
 
 
+    .row.justify-content-center.mb-5
+      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="flip-left")
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/temas/tema3/img58.svg", alt="alt")
+          .crd_hover_txt--body
+            h4.mb-3 Uno
+            p.mb-0.text-center Para aguas residuales, solicitar los permisos con anterioridad, verificar la zona y llevar los elementos de protección requeridos.
 
+      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="flip-left")
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/temas/tema3/img59.svg", alt="alt")
+          .crd_hover_txt--body
+            h4.mb-3 Dos
+            p.mb-0.text-center Para aguas residuales, solicitar los permisos con anterioridad, verificar la zona y llevar los elementos de protección requeridos.
 
-            
+      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="flip-left")
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/temas/tema3/img60.svg", alt="alt")
+          .crd_hover_txt--body
+            h4.mb-3 Tres
+            p.mb-0.text-center Recuerde llevar la documentación para registrar horas, fechas, lugares de la toma de muestras. (Resolución 0811, 2008).
+
+    .row.bg1-tema3-v2.align-items-center.mb-5
+      h4.text-white.mt-2 Características de los puntos de muestreo:
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-1
+        figure
+          img(src='@/assets/curso/temas/tema3/img61.svg', alt='alt')  
+      .col-11
+        p La forma de tomar la muestra y el punto de muestreo está condicionado al lugar de este, por eso se debe considerar algunas particularidades a la hora de realizar una actividad de muestreo, para Ferro (2020), en su libro denominado Perito en salud medioambiental, según las diferentes fuentes de agua las características del muestreo deben ser:
+
+    TabsB.color-primario
+      .py-4.py-md-5(titulo="Pozos de agua" :icono="require('@/assets/curso/temas/tema3/img62.svg')")
+        .row
+          .col-md-7.mb-4.mb-md-0
+            p Extraer la muestra de agua sólo después que el pozo ha sido bombeado por lo menos durante 15 minutos para asegurar que la muestra representa la calidad de la fuente de agua subterránea.
+        
+          .col-md-5
+            figure
+              img(src='@/assets/curso/temas/tema3/img63.svg', alt='Texto que describa la imagen')
+
+      .py-4.py-md-5(titulo="Ríos y arroyos" :icono="require('@/assets/curso/temas/tema3/img64.svg')")
+        .row
+          .col-md-7.mb-4.mb-md-0
+            p Cuando se toman muestras de un río o un arroyo, los valores analíticos pueden variar con la profundidad, el caudal del arroyo y por la distancia a las orillas. Los cuidados a tener en cuenta en estos casos son: la muestra para que sea representativa debe ser recolectada a la mitad del área del flujo, independientemente de la modalidad del muestreo, tener presente las inundaciones repentinas, seleccionar el punto de muestreo cercano a una estación de aforo para relacionar el caudal del río con la muestra de agua, en el caso de puntos de muestreo situados en las proximidades de confluencias y descargas, los puntos de muestreo deberán estar ubicados a una distancia tal en que ambas aguas estén uniformemente mezcladas.
+        
+          .col-md-5
+            figure
+              img(src='@/assets/curso/temas/tema3/img65.svg', alt='Texto que describa la imagen')
+
+      .py-4.py-md-5(titulo="Lagos y reservorios" :icono="require('@/assets/curso/temas/tema3/img66.svg')")
+        .row
+          .col-md-7.mb-4.mb-md-0
+            p Estos tipos de cuerpos de agua están sujetos a considerables variaciones por causas normales tales como estratificación a causa de la radiación solar y la velocidad del viento y descargas de fuentes tributarias. Para determinar la representatividad de la calidad del agua en embalses, muchas veces se requiere la toma de muestras en más de una posición. Las ubicaciones dependen de los objetivos del programa de muestreo, el impacto de las fuentes locales de contaminación y el tamaño del cuerpo de agua. (2020, p.1274).
+        
+          .col-md-5
+            figure
+              img(src='@/assets/curso/temas/tema3/img67.svg', alt='Texto que describa la imagen')
+
+    separador
+    #t_3_5.titulo-segundo.color-acento-contenido
+       h2 3.5 Partes del plan de muestreo
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-1
+        figure
+          img(src='@/assets/curso/temas/tema3/img68.svg', alt='alt')  
+      .col-11
+        p El plan de muestreo es un instrumento de planeación en el cual se deja todo consolidado sobre el muestreo a realizar. Para el caso de muestras de agua potable existe una base normativa que da las directrices para este documento,  la Resolución 0811 de 2008 y la Resolución 2115 de 2007. Que pueden ser consultadas mediante las alternativas dispuestas por los entes y autoridades competentes.
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-4
+        figure.mb-4
+          img(src='@/assets/curso/temas/tema3/img69.svg', alt='alt')  
+
+      .col-lg-8
+        p En general, se recomienda que el plan de muestreo especifique como mínimo los siguientes ítems según la Icontec (1995), en la Norma Técnica Colombiana [NTC] 5667-1, Directrices para el diseño de programas de muestreo:
+
+        .row 
+          .col-lg-5
+            ol.lista-ol--cuadro.fa-ul2
+              li 
+                .lista-ol--cuadro__vineta
+                  span 1
+                | El objetivo.
+              li 
+                .lista-ol--cuadro__vineta
+                  span 2
+                | El sitio de toma de muestra.
+              li 
+                .lista-ol--cuadro__vineta
+                  span 3
+                | El método y técnica a usar.
+              li 
+                .lista-ol--cuadro__vineta
+                  span 4
+                | Los parámetros a medir. 
+
+          .col-lg-7
+            ol.lista-ol--cuadro.fa-ul2
+              li 
+                .lista-ol--cuadro__vineta
+                  span 5
+                | Los instrumentos y equipos requeridos.
+              li 
+                .lista-ol--cuadro__vineta
+                  span 6
+                | El personal y las competencias que debe manejar.
+              li 
+                .lista-ol--cuadro__vineta
+                  span 7
+                | Los elementos de seguridad y salud en el trabajo.
+              li 
+                .lista-ol--cuadro__vineta
+                  span 8
+                | Los formatos requeridos para el registro de información.        
+
+    .row.mb-5
+      p Se invita a consultar información según las normas aplicadas.
+
+    .row.mb-5
+      .tarjeta.bgDescarga.p-4.mb-5
+        .row.justify-content-around.align-items-center
+          .col-3.col-sm-2.col-lg-1
+            img(src="@/assets/curso/temas/tema3/img27.svg")
+          .col
+            .row.justify-content-between.align-items-center
+              .col.mb-3.mb-sm-0
+                p.texto-blanco Después de ingresar, en la búsqueda ubicar Manual toma de muestras de agua. Abrir este documento, y obtener el Manual de instrucciones para la toma, preservación, transporte de muestras de agua para consumo humano para análisis de laboratorio. ISBN 978-958-13-0147-8.
+              .col-sm-auto
+                a.boton.color-primario(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  span.texto-negro Enlace
+                  i.fas.fa-link.texto-negro
 
 
 
