@@ -9,7 +9,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
-        .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-4
+        .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img1.png')})`}"
           )
@@ -24,14 +24,14 @@
           iframe(width="560" height="315" src="https://www.youtube.com/embed/11111111" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     separador
-    #t_3_1.titulo-segundo.color-acento-contenido
+    #t_3_1.titulo-segundo.color-acento-botones
        h2 3.1 Tipos y técnicas de muestreo
 
     .row.justify-content-center.align-items-center 
-      .col-3
-        figure
+      .col-8.col-lg-3
+        figure.mb-3
           img(src='@/assets/curso/temas/tema3/img2.png', alt='alt')  
-      .col-9
+      .col-lg-9
         p Los tipos y técnicas de muestreo varían de acuerdo con la situación específica y según los objetivos previstos; algunos estudios requieren solamente muestras instantáneas o simples, mientras que en otros se necesita disponer de muestras compuestas o aún más elaboradas en tiempo y espacio. 
 
         .cajon.color-primario.p-4
@@ -43,16 +43,16 @@
       h4.text-white.mt-2 Tipos de muestras: 
 
     .row.justify-content-center.align-items-center.mt-5
-      .col-1
+      .col-6.col-lg-1
         figure
           img(src='@/assets/curso/temas/tema3/img3.svg', alt='alt')  
-      .col-11
+      .col-lg-11
         p Antes de iniciar el muestreo, es elemental tener claramente definido la forma como serán tomadas las muestras para poder realizar un trabajo de campo; Según el Instituto Colombiano de Normas Técnicas y Certificación [Icontec] (1995) en la norma técnica colombiana [NTC] 5667-2 Técnicas generales de muestreo, dentro de los tipos de muestras se pueden encontrar: sencillas, compuestas, periódicas, continuas y de serie (pp.2-8). 
 
     .row.mt-5
       p Ahora, se mencionan algunas de ellas:
 
-      .tarjeta.tarjeta--azul.p-4
+      .tarjeta.tarjeta--azul2.p-4
         SlyderA(tipo="b").p-4
           .row
             .col-md-6.mb-4.mb-md-0
@@ -71,8 +71,8 @@
 
               p Debido a la variación horaria de su caudal, por tal razón son muy utilizadas en el monitoreo de ríos, vertimientos o procesos industriales en línea. Su toma se realiza en un mismo punto en intervalos de tiempo previamente definidos, y el volumen de cada muestra parcial puede ser constante o variar en función del caudal.  Para los casos en que se requiere variar el volumen en cada toma, se recolectan muestras parciales (alícuotas) ej.: cada 2 o 3 horas, cuyo volumen se obtiene según la siguiente relación:  
 
-              .row.mt-3
-                .col-4
+              .row.justify-content-center.mt-3
+                .col-8.col-lg-4
                   figure
                     img(src='@/assets/curso/temas/tema3/img8.svg', alt='Texto que describa la imagen')
 
@@ -145,8 +145,8 @@
             p.mb-0.text-center Según el INS (2007) se operan programas de muestreo mixto, convirtiendo el monitoreo en un sistema integrado que permite la verificación manual de los resultados obtenidos de forma automática. Esta se realiza aleatoriamente, de tal manera que se pueda realizar calibración, ajuste y mantenimiento de los equipos automáticos (p.22). 
 
     .row.justify-content-center.align-items-center.mt-5
-      .col-1
-        figure
+      .col-6.col-lg-1
+        figure.mb-3
           img(src='@/assets/curso/temas/tema3/img12.svg', alt='alt')  
       .col-11
         p Las técnicas del muestreo de agua para análisis microbiológicos básicamente incluyen procedimientos para prevenir su contaminación durante el llenado de los recipientes por microorganismos presentes en el exterior de los grifos, accesorios, en el ambiente o en el operario. Las técnicas de llenado de los recipientes se pueden dividir en dos: muestreo en el grifo o muestreo por inmersión.
@@ -155,21 +155,21 @@
       h4.text-white.mt-2 Muestreos en el grifo
 
     .row.justify-content-center.align-items-center.mt-5
-      .col-3
-        figure
+      .col-8.col-lg-3
+        figure.mb-3
           img(src='@/assets/curso/temas/tema3/img13.png', alt='alt')  
-      .col-9
+      .col-lg-9
         p Este tipo de muestreo se aplica específicamente para las muestras de agua potable de llave. Estas pueden ser tomadas en plantas de tratamiento y tanques de almacenamiento, agua en la red de distribución, agua del grifo del consumidor, agua para consumo, agua de manantiales o pozos que cuenten con dispositivos de tomas de muestra instalados permanentemente.
 
         p Cuando se va a realizar la toma de estas muestras se debe hacer una previa desinfección del grifo, excepto para la toma de muestras de agua de consumo directo, ya que la calidad microbiológica de esta agua dependerá tanto de los microorganismos presentes en el agua, como de los presentes en los accesorios y el grifo.
 
-      .row.mt-5
-        h4.color-titulo-azul Técnica de llenado para muestreo en el grifo
+    .row.mt-5
+      h4.color-titulo-azul Técnica de llenado para muestreo en el grifo
 
-        p.mt-3 Esta técnica debe seguir los protocolos establecidos, así como lo indica el Instituto Colombiano de Normas Técnicas y certificación [Icontec] (2015) en la norma técnica colombiana [NTC] 6151, calidad del agua. Muestreo para análisis microbiológico:
+      p.mt-3 Esta técnica debe seguir los protocolos establecidos, así como lo indica el Instituto Colombiano de Normas Técnicas y certificación [Icontec] (2015) en la norma técnica colombiana [NTC] 6151, calidad del agua. Muestreo para análisis microbiológico:
 
     .row.mt-5.justify-content-center.align-items-center 
-      .col-8
+      .col-lg-8
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
           .row(titulo="Norma 1")
             .col-md-8.mb-4.mb-md-0
@@ -240,7 +240,7 @@
                 img(src='@/assets/curso/temas/tema3/img21.png', alt='Texto que describa la imagen')
       
        
-      .col-4
+      .col-6.col-lg-4
         figure
           img(src='@/assets/curso/temas/tema3/img22.png', alt='Texto que describa la imagen')
 
@@ -248,11 +248,11 @@
       h4.text-white.mt-2 Muestreo por inmersión
 
     .row.justify-content-center.align-items-center.mt-5
-      .col-3
-        figure
+      .col-6.col-lg-3
+        figure.mb-3
           img(src='@/assets/curso/temas/tema3/img23.png', alt='alt')  
           
-      .col-9
+      .col-lg-9
         p Se realiza cuando se requiere tomar muestras de profundidad por ejemplo, en el caso de muestreos de tanques de almacenamiento que no cuenten con dispositivos de muestras o en el agua de manantiales, pozos o  piscinas.
 
         p En estos casos la muestra se debe tomar con un recipiente estéril en su interior y exterior. Tan pronto se va a tomar la muestra se debe retirar la envoltura protectora del recipiente y con la ayuda de una vara de muestreo se lleva a cabo la toma de muestra.
@@ -264,7 +264,7 @@
         LineaTiempoC.color-acento-contenido(text-small)
           .row(titulo="1")
             .col-md-6
-              figure
+              figure.mb-3
                 img(src='@/assets/curso/temas/tema3/img24.png', alt='Texto que describa la imagen')
               
             .col-md-6.mb-4.mb-md-0
@@ -272,7 +272,7 @@
 
           .row(titulo="2")
             .col-md-6
-              figure
+              figure.mb-3
                 img(src='@/assets/curso/temas/tema3/img25.png', alt='Texto que describa la imagen')
               
             .col-md-6.mb-4.mb-md-0
@@ -280,7 +280,7 @@
 
           .row(titulo="3")
             .col-md-6
-              figure
+              figure.mb-3
                 img(src='@/assets/curso/temas/tema3/img26.png', alt='Texto que describa la imagen')
               
             .col-md-6.mb-4.mb-md-0
@@ -303,20 +303,21 @@
                   span.texto-negro Descargar
                   i.fas.fa-file-download.texto-negro
         
-    .row.bg1-tema3-v2.align-items-center.mt-5
+    .row.bg2-tema3-v2.align-items-center.mt-5
       h4.text-white.mt-2 Técnicas de Manos Limpias (ML)/Manos Sucias (MS)
 
     .row.justify-content-center.align-items-center.mt-5
-      .col-4
-        figure
+      .col-8.col-lg-4
+        figure.mb-3
           img(src='@/assets/curso/temas/tema3/img28.png', alt='alt')
-      .col-8 
+      
+      .col-lg-8 
         p Esta es una técnica sencilla que involucra el proceso de la toma de la muestra, sin embargo, es una estrategia que se ha incentivado por ser algo práctico, de fácil ejecución y de buenos resultados de acuerdo con el Servicio Geológico de los Estados Unidos [USGS], en su manual de campo interinstitucional para la recolección de datos sobre la calidad del agua (2000).
 
         p Los procedimientos de muestreo limpios, incluidas las técnicas de ML/MS, son necesarios cuando se recogen muestras inorgánicas para determinar la presencia de metales y otros oligoelementos. Los procedimientos de muestreo limpio se recomiendan para todos los demás muestreos, en la medida en que resulte razonable, pero particularmente cuando el objeto analizado, podría estar sujeto a contaminación en el terreno o de los procedimientos de laboratorio a un nivel que podría sobrepasar la demanda química de oxígeno (DQO) con fines de información e interpretación.
 
     .row.justify-content-center.align-items-center.mt-3.mb-5
-      .col-8
+      .col-lg-8
         .cajon.color-primario.p-4
           p Las técnicas ML/MS separan las funciones en el terreno y dedican un individuo como <b><i>"manos limpias"</i></b> para tareas relacionadas con tener contacto directo con la muestra.
 
@@ -344,10 +345,10 @@
       h4.text-white.mt-2 Técnica muestreo tomado al azar
 
     .row.justify-content-center.align-items-center.mt-5
-      .col-4
-        figure
+      .col-8.col-lg-4
+        figure.mb-3
           img(src='@/assets/curso/temas/tema3/img30.svg', alt='alt')
-      .col-8 
+      .col-lg-8 
         p La última técnica a mencionar es la que se basa en una muestra que se toma totalmente al azar, por medio de un recipiente abierto: El cual se coloca en un solo punto en la superficie (arroyo, embalse, río etc.), estas muestras por lo general se toman antes de hacer otro trabajo en el lugar para no afectar la corriente y la posterior recolección; para esta técnica se utilizan muestreadores colectores que suelen pararse corriente abajo de la botella durante la operación de llenado, evitando que entren partículas que estén suspendidas  (NTC 5667-2, 1995).
 
     .mb-5
@@ -363,7 +364,7 @@
               .col.mb-3.mb-sm-0
                 p.texto-blanco Si es de su interés ampliar la información puede ir al material complementario y consultar el video sobre la #[b metodología para realizar un muestreo integrado en un río.]
               .col-sm-auto
-                a.boton.color-primario(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                a.boton.color-primario(href="https://www.youtube.com/embed/JBu6RQ1QMD0" target="_blank")
                   span.texto-negro Enlace
                   i.fas.fa-link.texto-negro
 
@@ -429,11 +430,11 @@
 
 
     separador
-    #t_3_2.titulo-segundo.color-acento-contenido
+    #t_3_2.titulo-segundo.color-acento-botones
        h2 3.2 Tamaño de la muestra
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-4
+    .row.mb-5
+      .col-10.col-lg-4
         figure.mb-4
           img(src='@/assets/curso/temas/tema3/img37.svg', alt='alt')  
 
@@ -497,67 +498,67 @@
           img(src='@/assets/curso/temas/tema3/img38.svg', alt='alt')  
 
       .tarjeta.tarjeta-amarilla.p-3(x="19.5%" y="45.3%" numero="")
-        .row
-          .col-lg-2.mb-3
+        .row.justify-content-center
+          .col-4.col-lg-2.mb-3
             figure
               img(src='@/assets/curso/temas/tema3/img39.svg', alt='alt')          
           
           p Cerrar el envase asegurando su cierre hermético.
 
       .tarjeta.tarjeta-amarilla.p-3(x="26.7%" y="64%" numero="")
-        .row
-          .col-lg-2.mb-3
+        .row.justify-content-center
+          .col-4.col-lg-2.mb-3
             figure
               img(src='@/assets/curso/temas/tema3/img40.svg', alt='alt')          
           
           p Si no estaba rotulada la botella rotularla con tinta indeleble. Siempre tener papel y cinta adhesiva para emergencias o muestras no planificadas.
 
       .tarjeta.tarjeta-amarilla.p-3(x="38%" y="33%" numero="")
-        .row
-          .col-lg-2.mb-3
+        .row.justify-content-center
+          .col-4.col-lg-2.mb-3
             figure
               img(src='@/assets/curso/temas/tema3/img41.svg', alt='alt')          
           
           p Enjuagar 2 a 3 veces con la fuente de agua que se va a muestrear, desechando el agua de enjuague.
 
       .tarjeta.tarjeta-amarilla.p-3(x="40%" y="67%" numero="")
-        .row
-          .col-lg-2.mb-3
+        .row.justify-content-center
+          .col-4.col-lg-2.mb-3
             figure
               img(src='@/assets/curso/temas/tema3/img42.svg', alt='alt')          
           
           p Que el envase tenga una capacidad de por lo menos 1 litro.
 
       .tarjeta.tarjeta-amarilla.p-3(x="72%" y="11%" numero="")
-        .row
-          .col-lg-2.mb-3
+        .row.justify-content-center
+          .col-4.col-lg-2.mb-3
             figure
               img(src='@/assets/curso/temas/tema3/img43.svg', alt='alt')          
           
           p Si el envase está rotulado verificar que sea el correcto.
 
       .tarjeta.tarjeta-amarilla.p-3(x="73.4%" y="38.7%" numero="")
-        .row
-          .col-lg-2.mb-3
+        .row.justify-content-center
+          .col-4.col-lg-2.mb-3
             figure
               img(src='@/assets/curso/temas/tema3/img44.svg', alt='alt')          
           
           p Guardar la muestra en lugar fresco (interior de un vehículo) o en conservadora si fuera necesario y llevarla al laboratorio en el menor tiempo posible (se recomienda como tiempo máximo de entrega a laboratorio de 4 días) (2011, p.5).
 
       .tarjeta.tarjeta-amarilla.p-3(x="64%" y="57%" numero="")
-        .row
-          .col-lg-2.mb-3
+        .row.justify-content-center
+          .col-4.col-lg-2.mb-3
             figure
               img(src='@/assets/curso/temas/tema3/img45.svg', alt='alt')          
           
           p Recoger la muestra sin dejar cámara de aire. Se puede dejar un mínimo sin llenar que permita la variación de volumen debida a potenciales diferencias térmicas. Si se le va a agregar algún conservante contemplar el volumen necesario para el mismo.
 
     separador
-    #t_3_3.titulo-segundo.color-acento-contenido
+    #t_3_3.titulo-segundo.color-acento-botones
        h2 3.3 Tipos de ensayos
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-4
+    .row.mb-5
+      .col-10.col-lg-4
         figure.mb-4
           img(src='@/assets/curso/temas/tema3/img46.svg', alt='alt')  
 
@@ -573,7 +574,7 @@
       SlyderF(columnas="col-lg-6 col-xl-4")
         .tarjeta.tarjeta--naranja.p-4
           .row.justify-content-center.mb-3
-            .col-8.col-lg-6
+            .col-7.col-lg-6
               img(src='@/assets/curso/temas/tema3/img47.svg' alt='AvatarTop')
 
           h4.text-center Oxígeno disuelto: 
@@ -582,7 +583,7 @@
 
         .tarjeta.tarjeta--naranja.p-4
           .row.justify-content-center.mb-3
-            .col-8.col-lg-6
+            .col-7.col-lg-6
               img(src='@/assets/curso/temas/tema3/img48.svg' alt='AvatarTop')
 
           h4.text-center Conductividad:
@@ -591,7 +592,7 @@
 
         .tarjeta.tarjeta--naranja.p-4
           .row.justify-content-center.mb-3
-            .col-8.col-lg-6
+            .col-7.col-lg-6
               img(src='@/assets/curso/temas/tema3/img49.svg' alt='AvatarTop')
           
           h4.text-center pH: 
@@ -609,7 +610,7 @@
 
         .tarjeta.tarjeta--naranja.p-4
           .row.justify-content-center.mb-3
-            .col-8.col-lg-6
+            .col-7.col-lg-6
               img(src='@/assets/curso/temas/tema3/img51.svg' alt='AvatarTop')
           
           h4.text-center Turbidez:
@@ -617,7 +618,7 @@
           p.text-center el agua turbia es provocada por la materia insoluble, en suspensión o dispersión coloidal. Es un fenómeno óptico que consiste esencialmente en una absorción de luz combinado con un proceso de difusión. (Invemar, 2013, p.26).
 
     separador
-    #t_3_4.titulo-segundo.color-acento-contenido
+    #t_3_4.titulo-segundo.color-acento-botones
        h2 3.4 Puntos de tomas de muestras
 
     .row.justify-content-center.align-items-center.mb-5
@@ -658,10 +659,12 @@
               figure
                 img(src='@/assets/curso/temas/tema3/img56.svg', alt='alt') 
 
-      .col-lg-4
+      .col-10.col-lg-4
         figure
           img(src='@/assets/curso/temas/tema3/img57.svg', alt='alt')         
 
+    .mb-5
+      p Para muestreos que no son de agua para consumo humano siempre se recomienda:
 
     .row.justify-content-center.mb-5
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
@@ -701,7 +704,7 @@
       .col-11
         p La forma de tomar la muestra y el punto de muestreo está condicionado al lugar de este, por eso se debe considerar algunas particularidades a la hora de realizar una actividad de muestreo, para Ferro (2020), en su libro denominado Perito en salud medioambiental, según las diferentes fuentes de agua las características del muestreo deben ser:
 
-    TabsB.color-primario
+    TabsB.color-acento-contenido
       .py-4.py-md-5(titulo="Pozos de agua" :icono="require('@/assets/curso/temas/tema3/img62.svg')")
         .row
           .col-md-7.mb-4.mb-md-0
@@ -730,18 +733,18 @@
               img(src='@/assets/curso/temas/tema3/img67.svg', alt='Texto que describa la imagen')
 
     separador
-    #t_3_5.titulo-segundo.color-acento-contenido
+    #t_3_5.titulo-segundo.color-acento-botones
        h2 3.5 Partes del plan de muestreo
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-1
-        figure
+      .col-6.col-lg-1
+        figure.mb-3
           img(src='@/assets/curso/temas/tema3/img68.svg', alt='alt')  
-      .col-11
+      .col-lg-11
         p El plan de muestreo es un instrumento de planeación en el cual se deja todo consolidado sobre el muestreo a realizar. Para el caso de muestras de agua potable existe una base normativa que da las directrices para este documento,  la Resolución 0811 de 2008 y la Resolución 2115 de 2007. Que pueden ser consultadas mediante las alternativas dispuestas por los entes y autoridades competentes.
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-4
+    .row.mb-5
+      .col-10.col-lg-4
         figure.mb-4
           img(src='@/assets/curso/temas/tema3/img69.svg', alt='alt')  
 
@@ -800,7 +803,7 @@
               .col.mb-3.mb-sm-0
                 p.texto-blanco Después de ingresar, en la búsqueda ubicar Manual toma de muestras de agua. Abrir este documento, y obtener el Manual de instrucciones para la toma, preservación, transporte de muestras de agua para consumo humano para análisis de laboratorio. ISBN 978-958-13-0147-8.
               .col-sm-auto
-                a.boton.color-primario(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                a.boton.color-primario(href="https://www.ins.gov.co/sivicap/Documentacin%20SIVICAP/2011%20Manual%20toma%20de%20muestras%20agua.pdf" target="_blank")
                   span.texto-negro Enlace
                   i.fas.fa-link.texto-negro
 

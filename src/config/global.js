@@ -61,6 +61,26 @@ export default {
             titulo: 'Tipos y técnicas de muestreo',
             hash: 't_3_1',
           },
+          {
+            numero: '3.2',
+            titulo: 'Tamaño de la muestra',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Tipos de ensayos',
+            hash: 't_3_3',
+          },
+          {
+            numero: '3.4',
+            titulo: 'Puntos de tomas de muestras',
+            hash: 't_3_4',
+          },
+          {
+            numero: '3.5',
+            titulo: 'Partes del plan de muestreo',
+            hash: 't_3_5',
+          },
         ],
       },
       {
@@ -68,6 +88,18 @@ export default {
         numero: '4',
         titulo: 'Bases conceptuales de muestreo',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Recipientes, reactivos e insumos',
+            hash: 't_4_1',
+          },
+          {
+            numero: '4.2',
+            titulo: 'Equipos y herramientas',
+            hash: 't_4_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema5',
