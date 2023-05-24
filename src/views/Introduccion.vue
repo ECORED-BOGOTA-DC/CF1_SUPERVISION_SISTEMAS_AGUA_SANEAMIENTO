@@ -14,13 +14,13 @@
 
       p La organización de un proceso de toma de muestras es elemental para garantizar que los resultados de dicha actividad no sean alterados por agentes externos al recurso a evaluar,  este proceso debe realizarse partiendo de la aplicabilidad de conceptos claros sobre los instrumentos de laboratorio, las muestras y la capacitación idónea que debe tener el personal que realice la actividad.
 
-      p Se abordarán tres temáticas que aportarán bases concretas en el proceso de programación de muestreo de agua, los cuáles son:
+      p Se abordarán tres temáticas que aportarán bases concretas en el proceso de programación de muestreo de agua, los cuales son:
 
     .row.justify-content-center.align-items-center.mt-5
-      .col-8.col-lg-4
+      .col-8.col-lg-4(data-aos="fade-up-right")
         figure
           img(src='@/assets/curso/temas/introduccion/img1.png', alt='alt')  
-      .col-11.col-lg-8.p-4.bg1-intro
+      .col-11.col-lg-8.p-4.bg1-intro(data-aos="fade-up-left")
         .row.justify-content-center.align-items-center 
           .col-10
             p <b>Instrumentación de laboratorio:</b> elementos de vidrio, de plástico, conceptos de tomas físicas, químicas y microbiológicas, instrumentación y características del sitio de trabajo.

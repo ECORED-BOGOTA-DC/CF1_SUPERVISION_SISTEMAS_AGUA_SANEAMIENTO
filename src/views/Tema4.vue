@@ -5,31 +5,31 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 4
-      h1 Bases conceptuales de muestreo
+      h1 Instrumentos de laboratorio
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-4
+      .col-lg-4(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema4/img1.svg', alt='alt')  
-      .col-lg-8
+      .col-lg-8(data-aos="fade-left")
         p Se designa a través del concepto material de laboratorio a todo aquel material que puede ser empleado en un laboratorio (puede ser de vidrio, madera, metal, plástico, goma y porcelana) para realizar las típicas actividades que en este tipo de lugares se llevan a cabo, a saber: investigaciones, experimentos, estudios especiales sobre recursos, partículas u otros.
 
         p El uso de los instrumentos de laboratorio debe estar orientado al objetivo de la muestra, teniendo en cuenta las características requeridas para muestras fisicoquímicas y microbiológicas, si el procesamiento de esta será in situ o si se requiere de algún equipo o herramienta.
 
     separador
-    #t_4_1.titulo-segundo.color-acento-botones
+    #t_4_1.titulo-segundo.color-acento-botones(data-aos="fade-right")
        h2 4.1 Recipientes, reactivos e insumos
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-6.col-lg-1
+      .col-6.col-lg-1(data-aos="fade-right")
         figure.mb-3
           img(src='@/assets/curso/temas/tema4/img2.svg', alt='alt')
       
-      .col-lg-11
+      .col-lg-11(data-aos="fade-left")
         p Los recipientes para la toma de muestras más usados para exámenes físicos - químicos y microbiológicos de acuerdo con el INS (2011), son de vidrio y plástico, y varían de acuerdo con la muestra y sus componentes. En algunos casos es requerido el uso de un blanco del recipiente para descartar interferencias; como se observa en la siguiente línea de tiempo: 
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-6.mb-5
+      .col-lg-6.mb-5(data-aos="flip-right")
         .tarjeta.tarjeta-amarilla2.p-4
           .row 
             figure.mb-4
@@ -43,7 +43,7 @@
                 img(src='@/assets/curso/temas/tema4/img4.svg', alt='alt')            
 
             .col-lg-10
-              p Deben ser resistentes a altas temperaturas, ya que deben ser esterilizados a temperaturas de 120 ºC o 160ºC para garantizar que los recipientes están libres de microorganismos antes de la toma de la muestra.
+              p Deben ser resistentes a altas temperaturas, ya que deben ser esterilizados a temperaturas de 120ºC o 160ºC para garantizar que los recipientes están libres de microorganismos antes de la toma de la muestra.
 
             .col-4.col-lg-2
               figure.my-3
@@ -59,7 +59,7 @@
             .col-lg-10
               p Deben tener tapa rosca, preferiblemente de plástico, con forros de silicona termo-resistentes (p. 34).
 
-      .col-lg-6.mb-5
+      .col-lg-6.mb-5(data-aos="flip-left")
         .tarjeta.tarjeta-azul.p-4
           .row 
             figure.mb-4
@@ -75,12 +75,12 @@
                 | Preferiblemente livianos y resistentes.
               li 
                 i.fas.fa-check.color-vineta1
-                | Boca ancha
+                | Boca ancha.
               li 
                 i.fas.fa-check.color-vineta1
-                | Cierre hermético
+                | Cierre hermético.
 
-    .row.mb-5
+    .row.mb-5(data-aos="fade-up")
       p Los recipientes de vidrio y plástico utilizados para la toma de muestras, deben ser lavados y acondicionados de acuerdo con las disposiciones del Instituto Nacional de Salud -INS- (2011), quien brinda directrices claras sobre el acondicionamiento de materiales para análisis fisicoquímico y microbiológico. Para ello se debe tener en cuenta el tipo de análisis a desarrollar:
 
     .row.justify-content-center.align-items-center.mb-5
@@ -98,7 +98,7 @@
 
           .row
             .col-md-6.mb-4.mb-md-0
-              h4 Para análisis fisicoquímico:
+              h4 Para análisis fisicoquímico
 
               p Los recipientes de vidrio nuevos se deben limpiar con agua y detergentes, para eliminar el polvo; después se limpian con una mezcla de ácido crómico - ácido sulfúrico o en su defecto con limpiador neutro y se enjuagan con agua destilada.
 
@@ -116,7 +116,7 @@
 
           .row
             .col-md-6.mb-4.mb-md-0
-              h4 Para análisis microbiológico:
+              h4 Para análisis microbiológico
 
               p El lavado se debe realizar con detergentes neutros y para eliminar la suciedad, se deben enjuagar con agua corriente hasta eliminar completamente las trazas de jabón, posteriormente se enjuaga con agua destilada y finalmente se dejan secar al medio ambiente o en estufa.
 
@@ -135,10 +135,10 @@
                 img(src='@/assets/curso/temas/tema4/img12.svg', alt='alt')
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-4
+      .col-lg-4(data-aos="fade-right")
         figure.mb-4
           img(src='@/assets/curso/temas/tema4/img13.svg', alt='alt')  
-      .col-lg-8
+      .col-lg-8(data-aos="fade-left")
         p Esterilización de los recipientes: los recipientes para la toma de muestras deben estar estériles. Es decir, deben haber sido #[b sometidos a procesos de esterilización.] La esterilización hace referencia a procesos físicos o químicos que eliminan cualquier forma de vida. Cuando se dice que un recipiente está estéril es porque en este no hay presencia de microorganismos o esporas termorresistentes.
 
         p Los recipientes para la toma de muestras se deben esterilizar de acuerdo con los #[i Standard Methods For the Examination of Water and Wastewater] (2017) se puede mediante métodos físicos como la esterilización por #[b calor húmedo] o por #[b calor seco:]
@@ -151,21 +151,19 @@
               img(src='@/assets/curso/temas/tema4/img14.svg', alt='alt')
 
           .tarjeta.tarjeta--azul.p-3(x="26.55%" y="50%" numero="")
-            .h5.mb-2 Esterilización por calor seco
-            p Se realiza en un horno que se lleva a una temperatura de 170 ± 10 ºC durante 1 hora. Los recipientes de plástico no se deben esterilizar por este método.
+            p Se realiza en un equipo llamado autoclave en el que mediante el vapor de agua se producen temperaturas de 121 ± 3 ºC y 1 atmósfera de presión. Cuanto se someten los recipientes a estas condiciones durante 15 minutos, los microorganismos o las esporas que estaban presentes en estos, mueren y como consecuencia los recipientes quedan estériles.
 
           .tarjeta.tarjeta--azul.p-3(x="72%" y="50%" numero="")
-            .h5.mb-2 Esterilización por calor húmedo
-            p Se realiza en un equipo llamado autoclave en el que mediante el vapor de agua se producen temperaturas de 121 ± 3 ºC y 1 atmósfera de presión. Cuanto se someten los recipientes a estas condiciones durante 15 minutos, los microorganismos o las esporas que estaban presentes en estos, mueren y como consecuencia los recipientes quedan estériles.
+            p Se realiza en un horno que se lleva a una temperatura de 170 ± 10 ºC durante 1 hora. Los recipientes de plástico no se deben esterilizar por este método.
 
     .row.justify-content-center.align-items-center.mb-5
       .tarjeta-amarilla3.p-3.p-lg-5
         .row.justify-content-center
-          .col-8.col-lg-3
+          .col-8.col-lg-3(data-aos="fade-up")
             figure.my-4
               img(src='@/assets/curso/temas/tema4/img15.svg', alt='alt')            
 
-          .col-lg-9
+          .col-lg-9(data-aos="fade-down")
             p A continuación, se presentan algunas indicaciones para tener en cuenta:
 
             ol.lista-ol--cuadro.fa-ul2
@@ -183,7 +181,7 @@
                 | Cuando la esterilización no es posible por ningún medio, la Icontec en su NTC 6151 (2015) menciona la posibilidad de hacer desinfección de los recipientes mediante ebullición durante 30 minutos, para ello se deben sumergir los recipientes y sus tapas en agua hirviendo. Terminado el proceso de desinfección se debe eliminar el agua de los recipientes, tapar y colocar en una envoltura limpia.      
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-7
+      .col-lg-7(data-aos="flip-up")
         .cajon.color-secundario.p-4
           h5 Prueba de esterilidad de los recipientes
           p.mb-0 Se deben realizar pruebas de monitoreo al proceso de esterilización o hacer pruebas a los recipientes para comprobar su esterilidad.
@@ -191,7 +189,7 @@
     .row.mb-5
       p Ampliar la información con la NTC 5667-2 en cuanto a recipientes para muestras y en la NTC 6151.
 
-    .row.mb-5
+    .row.mb-5(data-aos="flip-down")
       .tarjeta.bgDescarga.p-4.mb-5
         .row.justify-content-around.align-items-center
           .col-3.col-sm-2.col-lg-1
@@ -209,26 +207,26 @@
                   i.fas.fa-link.texto-negro
 
     separador
-    #t_4_2.titulo-segundo.color-acento-botones
+    #t_4_2.titulo-segundo.color-acento-botones(data-aos="fade-right")
        h2 4.2 Equipos y herramientas
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-6.col-lg-1
+      .col-6.col-lg-1(data-aos="fade-right")
         figure.mb-3
           img(src='@/assets/curso/temas/tema4/img16.svg', alt='alt')
       
-      .col-lg-11
+      .col-lg-11(data-aos="fade-left")
         p El trabajo práctico de toma de muestras en el sitio siempre se acompaña del uso de equipos y herramientas necesarias para tal fin, teniendo en cuenta no solo las condiciones mínimas de dichos implementos como que se encuentren calibrados, sino también el uso acorde a las indicaciones de cada equipo.
 
-    .row.bg3-tema4-v2.align-items-center.mb-5
+    .row.bg3-tema4-v2.align-items-center.mb-5(data-aos="fade-right")
       h4.text-white.mt-2 Equipo de muestreo manual
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-6.col-lg-1
+      .col-6.col-lg-1(data-aos="fade-right")
         figure.mb-3
           img(src='@/assets/curso/temas/tema4/img17.svg', alt='alt')
       
-      .col-lg-11
+      .col-lg-11(data-aos="fade-left")
         p Para el Invemar manejar los equipos para las muestras superficiales es extremar la limpieza del material y procurar procedimientos que eviten la contaminación. En muestras superficiales la recolección se puede hacer manualmente introduciendo la botella colectora bajo la superficie, procurando siempre hacerlo a la misma profundidad (c.a. 25 cm), otras recomendaciones dadas para estos equipos son:
 
     .row.justify-content-center.mb-5
@@ -238,8 +236,8 @@
             figure
               img(src="@/assets/curso/temas/tema4/img18.svg", alt="alt")
           .crd_hover_txt--body
-            h4.mb-3 Botellas Nansen:
-            p.mb-0.text-center cuando el objetivo es obtener muestras de agua a profundidades determinadas, se emplean botellas colectoras dotadas de mecanismos de cierre para confinar la masa de agua que se encuentra a la profundidad de interés. En estudios oceanográficos, se emplean normalmente botellas nansen para el análisis de los parámetros fisicoquímicos, pH, salinidad, oxígeno disuelto y nutrientes inorgánicos.
+            h4.mb-3.text-center Botellas Nansen
+            p.mb-0.text-center Cuando el objetivo es obtener muestras de agua a profundidades determinadas, se emplean botellas colectoras dotadas de mecanismos de cierre para confinar la masa de agua que se encuentra a la profundidad de interés. En estudios oceanográficos, se emplean normalmente botellas Nansen para el análisis de los parámetros fisicoquímicos, pH, salinidad, oxígeno disuelto y nutrientes inorgánicos.
 
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left")
@@ -247,8 +245,8 @@
             figure
               img(src="@/assets/curso/temas/tema4/img19.svg", alt="alt")
           .crd_hover_txt--body
-            h4.mb-3 Botellas Niskin:
-            p.mb-0.text-center por tener capacidad de mayor volumen, son ideales para la obtención de muestras en el análisis de pigmentos fotosintéticos y contaminantes (pesticidas, metales pesados, etc.). Hay que tener bastante precaución cuando se usan estas botellas en el muestreo de aguas con alto contenido de sólidos sedimentables; su forma alargada y un flujo muy lento para extraer la muestra por las llaves, facilitan la sedimentación de los sólidos provocando diferencia en este parámetro entre las primeras y las últimas botellas receptoras que se llenan.
+            h4.mb-3.text-center Botellas Niskin
+            p.mb-0.text-center Por tener capacidad de mayor volumen, son ideales para la obtención de muestras en el análisis de pigmentos fotosintéticos y contaminantes (pesticidas, metales pesados, etc.). Hay que tener bastante precaución cuando se usan estas botellas en el muestreo de aguas con alto contenido de sólidos sedimentables; su forma alargada y un flujo muy lento para extraer la muestra por las llaves, facilitan la sedimentación de los sólidos provocando diferencia en este parámetro entre las primeras y las últimas botellas receptoras que se llenan.
 
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left")
@@ -256,24 +254,24 @@
             figure
               img(src="@/assets/curso/temas/tema4/img20.svg", alt="alt")
           .crd_hover_txt--body
-            h4.mb-3 Botella Van Dorn horizontal: 
-            p.mb-0.text-center es adecuada para colectar muestras de fondo en cuerpos de agua muy someros, siendo muy apropiada para estudios de estratificación vertical, termoclinas y termohalinas en lagunas costeras, mientras que las de funcionamiento vertical permiten colectar muestras a mayores profundidades.
+            h4.mb-3.text-center Botella Van Dorn horizontal
+            p.mb-0.text-center Es adecuada para colectar muestras de fondo en cuerpos de agua muy someros, siendo muy apropiada para estudios de estratificación vertical, termoclinas y termohalinas en lagunas costeras, mientras que las de funcionamiento vertical permiten colectar muestras a mayores profundidades.
 
-    .row.bg3-tema4-v2.align-items-center.mb-5
+    .row.bg3-tema4-v2.align-items-center.mb-5(data-aos="fade-right")
       h4.text-white.mt-2 Equipo de muestreo automático
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-6.col-lg-1
+      .col-6.col-lg-1(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema4/img21.svg', alt='alt')
       
-      .col-lg-11.mt-3
+      .col-lg-11.mt-3(data-aos="fade-left")
         p Es importante resaltar que también existe tomadores de muestras instrumentados y a menudo automatizados dentro de estos existen dos tipos principales; los dependientes del tiempo, que recogen muestras discretas, compuestas o continuas y los dependientes del volumen también recogen estos tipos de muestra y tienen en cuenta las variaciones en el flujo (NTC 5667-2, 1995).
 
     .row.mb-5
       p Para ampliar información con la NTC 5667-2 en cuanto a equipos para muestras, dar clic al recurso.
 
-    .row.mb-5
+    .row.mb-5(data-aos="flip-down")
       .tarjeta.bgDescarga.p-4.mb-5
         .row.justify-content-around.align-items-center
           .col-3.col-sm-2.col-lg-1
@@ -289,15 +287,15 @@
                   i.fas.fa-link.texto-negro
 
 
-    .row.bg3-tema4-v2.align-items-center.mb-5
+    .row.bg3-tema4-v2.align-items-center.mb-5(data-aos="fade-right")
       h4.text-white.mt-2 Equipos para análisis
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-6.col-lg-1
+      .col-6.col-lg-1(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema4/img22.svg', alt='alt')
       
-      .col-lg-11.mt-3
+      .col-lg-11.mt-3(data-aos="fade-left")
         p Dentro de los equipos o instrumentos más usados para la realización de los análisis se puede encontrar: termómetro, pHmetro y el turbidímetro.
 
         p A continuación, se invita a explorar el siguiente recurso que presenta los diferentes equipos para análisis y medición de aguas:
@@ -316,7 +314,7 @@
 
           .row(titulo="pHmetro").mt-4
             .col-md-7.mb-4.mb-md-0
-              p Según el Invemar (2013) la técnica más exacta, usada para la medición del pH es la potenciométrica, que se fundamenta en la medida de la diferencia de potencial experimentada en dos celdas electroquímicas (denominadas electrodos), se emplea un electrodo combinado de membrana de vidrio y uno de calomel como referencia. Los medidores de pH (pHmetro) modernos poseen un mecanismo electrónico que compensa automáticamente la medida con respecto a la temperatura,
+              p Según el Invemar (2013) la técnica más exacta, usada para la medición del pH es la potenciométrica, que se fundamenta en la medida de la diferencia de potencial experimentada en dos celdas electroquímicas (denominadas electrodos), se emplea un electrodo combinado de membrana de vidrio y uno de calomel como referencia. Los medidores de pH (pHmetro) modernos poseen un mecanismo electrónico que compensa automáticamente la medida con respecto a la temperatura.
           
             .col-md-5
               figure
@@ -331,7 +329,7 @@
               figure
                 img(src='@/assets/curso/temas/tema4/img25.svg', alt='alt')
 
-    .row.mb-5
+    .row.mb-5(data-aos="fade-left")
       p De acuerdo con Invemar (2013), actualmente en la mayoría de los laboratorios, la medición del agua se realiza por medio de la conductividad, revise a continuación aspectos relacionados. 
 
     .row.justify-content-center.align-items-center.mb-5
@@ -339,7 +337,7 @@
         .py-4.py-md-5(titulo="Método conductimétrico" :icono="require('@/assets/curso/temas/tema4/img26.svg')")
           .row
             .col-md-7.mb-4.mb-md-0
-              p Se define como la capacidad que tiene una sustancia de transportar electrones (conducir electricidad); en el agua, esta capacidad se ve influenciada por la cantidad de sales disueltas y la temperatura. Esto significa que, a mayor contenido de sales, mayor conductividad; de esta forma, se puede emplear esta propiedad para medir el contenido de sales en una muestra de agua. El método conductimétrico es aplicable a todo tipo de aguas naturales, especialmente del mar. También es aplicable a efluentes industriales y domésticos
+              p Se define como la capacidad que tiene una sustancia de transportar electrones (conducir electricidad); en el agua, esta capacidad se ve influenciada por la cantidad de sales disueltas y la temperatura. Esto significa que, a mayor contenido de sales, mayor conductividad; de esta forma, se puede emplear esta propiedad para medir el contenido de sales en una muestra de agua. El método conductimétrico es aplicable a todo tipo de aguas naturales, especialmente del mar. También es aplicable a efluentes industriales y domésticos.
           
             .col-md-5
               figure
@@ -354,22 +352,22 @@
               figure
                 img(src='@/assets/curso/temas/tema4/img29.svg', alt='Texto que describa la imagen')
 
-    .row.bg4-tema4-v2.align-items-center.mb-5
+    .row.bg1-tema3-v2.align-items-center.mb-5(data-aos="fade-right")
       h4.text-white.mt-2 Revisión y calibración de los equipos de muestreo
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-8
+      .col-lg-8(data-aos="fade-right")
         p Para el desarrollo de esta actividad siempre se debe contar primero con los manuales de calibración para cada uno de los equipos a utilizar, realizar el alistamiento de reactivos y tener claros los estándares requeridos por los mismos.
 
-        p El Ideam en la guía para el monitoreo de vertimientos de aguas superficiales y subterráneas presenta unas consideraciones pertinentes para algunos equipos dadas a continuación:
+        p El IDEAM en la guía para el monitoreo de vertimientos de aguas superficiales y subterráneas presenta unas consideraciones pertinentes para algunos equipos dadas a continuación:
       
-      .col-lg-4
+      .col-lg-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/temas/tema4/img30.svg', alt='alt')      
 
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-6
+      .col-lg-6(data-aos="flip-right")
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/tema4/img31.svg' alt='AvatarTop')
@@ -377,16 +375,16 @@
             .p-4
               p #[b Sonda multiparámetro:] siempre revisar y calibrar los sensores de por lo menos 24 horas antes de la actividad; el sensor de oxígeno disuelto debe calibrarse entre cada muestreo si existe diferencias en la altitud. (Se puede usar si es aplicable el método Winkler como comparación).
       
-      .col-lg-6
+      .col-lg-6(data-aos="flip-left")
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/tema4/img32.svg' alt='AvatarTop')
           .tarjeta.tarjeta-amarilla5
             .p-4
-              p.mt-lg-3 #[b Medidores de campo sencillos (pHmetro y conductímetro):] el proceso de calibración debe darse diariamente siempre al inicio del primer muestreo. (2014, p 21).
+              p.mt-lg-3 #[b Medidores de campo sencillos (pHmetro y conductímetro):] el proceso de calibración debe darse diariamente siempre al inicio del primer muestreo (2014, p 21).
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10
+      .col-lg-10(data-aos="flip-up")
         .tarjeta-azul3.p-4
           .row.justify-content-center
             .col-6.col-lg-3
@@ -394,7 +392,7 @@
                 img(src='@/assets/curso/temas/tema4/img33.svg', alt='alt').img3-tm4
 
             .col-lg-9 
-              p.mb-0 Recuerde que el éxito del muestreo se determina según el conocimiento del lugar de muestreo y de la necesidad de los parámetros a identificar, luego siempre revise el equipo antes de ir a tomar la muestra, temas como; Longitudes de sondas, pilas cargadas, funcionamiento y calibración son acciones previas obligatorias.      
+              p.mb-0 Recuerde que el éxito del muestreo se determina según el conocimiento del lugar de muestreo y de la necesidad de los parámetros a identificar, luego siempre revise el equipo antes de ir a tomar la muestra, temas como; longitudes de sondas, pilas cargadas, funcionamiento y calibración son acciones previas obligatorias.      
 
 
 

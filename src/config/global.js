@@ -86,7 +86,7 @@ export default {
       {
         nombreRuta: 'tema4',
         numero: '4',
-        titulo: 'Bases conceptuales de muestreo',
+        titulo: 'Instrumentos de laboratorio',
         desarrolloContenidos: true,
         subMenu: [
           {

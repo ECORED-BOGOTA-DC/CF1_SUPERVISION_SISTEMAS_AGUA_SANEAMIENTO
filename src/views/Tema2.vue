@@ -8,15 +8,15 @@
       h1 Importancia del alistamiento de toma de muestras
 
     .row.justify-content-center.align-items-center 
-      .col-8.col-lg-3
+      .col-8.col-lg-3(data-aos="fade-up-right")
         figure.mb-3
           img(src='@/assets/curso/temas/tema2/img1.png', alt='alt')  
-      .col-lg-9
+      .col-lg-9(data-aos="fade-up-left")
         p Las principales razones de la importancia del alistamiento de las tomas de muestras tienen que ver con la necesidad de verificar si se cuenta con todos los implementos para lograr identificar la calidad del recurso objeto de análisis, bien sea cuencas de agua dulce, fuentes de agua salada, agua para consumo humano y la estimación de los flujos de contaminantes y nutrientes vertidos a los ríos o aguas subterráneas, lagos y océanos o a través de fronteras internacionales.
 
-        p Debido a que el recurso hídrico tiene gran cantidad de usos, el alistamiento debe reflejar no solo las necesidades de equipos, instrumentación y reactivos, sino también incluir información de los diferentes usuarios involucrados, de acuerdo con el Instituto de Hidrología, Meteorología y Estudios Ambientales [Ideam], (2017), como se muestra a continuación:
+        p Debido a que el recurso hídrico tiene gran cantidad de usos, el alistamiento debe reflejar no solo las necesidades de equipos, instrumentación y reactivos, sino también incluir información de los diferentes usuarios involucrados, de acuerdo con el Instituto de Hidrología, Meteorología y Estudios Ambientales [IDEAM], (2017), como se muestra a continuación:
 
-    .row.mt-5  
+    .row.mt-5(data-aos="fade-down")
       SlyderF(columnas="col-lg-6 col-xl-3")
         .tarjeta.color-acento-botones.p-4.bg-tarjeta
           .row.justify-content-center.mb-3
