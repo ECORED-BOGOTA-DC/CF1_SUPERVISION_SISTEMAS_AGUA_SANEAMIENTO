@@ -261,8 +261,8 @@
         p Revise la siguiente infografía para identificar los casos en la toma de muestras de agua que se pueden aplicar.
 
     .row.mt-5
-      .tarjeta.tarjeta--gris.p-4
-        LineaTiempoC.color-acento-contenido
+      .tarjeta.tarjeta-amarilla4.p-4
+        LineaTiempoC.color-acento-botones
           .row(titulo="1")
             .col-md-6
               figure.mb-3
@@ -360,7 +360,7 @@
     .row.justify-content-center.align-items-center.my-5
       .col-8.col-lg-4(data-aos="fade-down-right")
         figure.mb-3
-          img(src='@/assets/curso/temas/tema3/img30.svg', alt='alt')
+          img(src='@/assets/curso/temas/tema3/img30.png', alt='alt')
       .col-lg-8(data-aos="fade-up-left")
         p La última técnica a mencionar es la que se basa en una muestra que se toma totalmente al azar, por medio de un recipiente abierto: el cual se coloca en un solo punto en la superficie (arroyo, embalse, río etc.), estas muestras por lo general se toman antes de hacer otro trabajo en el lugar para no afectar la corriente y la posterior recolección; para esta técnica se utilizan muestreadores colectores que suelen pararse corriente abajo de la botella durante la operación de llenado, evitando que entren partículas que estén suspendidas  (NTC 5667-2, 1995).
 
@@ -460,7 +460,7 @@
       p Para realizar el análisis microbiológico se recomienda tener en cuenta la cantidad de agua a muestrear, como se presenta en la siguiente tabla:  
 
     .titulo-sexto.color-acento-contenido(data-aos="fade-left")
-      h5 Tabla 1
+      h5 Tabla 1.
       br
       spam Tamaño de muestra según el tipo de agua a muestrear y ensayo a realizar
 

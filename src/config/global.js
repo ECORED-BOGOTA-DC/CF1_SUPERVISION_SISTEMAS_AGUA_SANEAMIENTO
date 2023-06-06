@@ -196,7 +196,7 @@ export default {
     {
       tema: 'Importancia del alistamiento de toma de muestras',
       referencia:
-        'Universidad de Antioquia, (2020). metodología para realizar un muestreo integrado en un río. [Video]. YouTube.',
+        'Universidad de Antioquia, (2020). Metodología para realizar un muestreo integrado en un río. [Video]. YouTube.',
       tipo: 'Vídeo',
       link: 'https://www.youtube.com/watch_popup?v=UOBmZqSftJY',
     },
@@ -223,16 +223,12 @@ export default {
     {
       termino: 'Cuerpos o cursos de agua',
       significado:
-        'son las aguas corrientes superficiales y subterráneas, lagos, lagunas, ciénagas, manantiales, humedales, embalses de formación natural o artificial, chucuas o madre vieja o antiguos cauces con flujos estacionales, esteros, bahías, lagunas costeras, golfos y las aguas marinas. (Ideam, s.f.).',
+        'son las aguas corrientes superficiales y subterráneas, lagos, lagunas, ciénagas, manantiales, humedales, embalses de formación natural o artificial, chucuas o madre vieja o antiguos cauces con flujos estacionales, esteros, bahías, lagunas costeras, golfos y las aguas marinas (Ideam, s.f.).',
     },
     {
       termino: 'Muestra',
       significado:
         'toma puntual de agua en los puntos de muestreo concertados, que refleja la composición física, química y microbiológica representativa del momento, para el proceso de vigilancia de la autoridad sanitaria (INS, 2011, p.9).',
-    },
-    {
-      termino: 'Término',
-      significado: 'Texto de la definición',
     },
     {
       termino: 'Puntos de muestreo en red de distribución',
@@ -280,7 +276,8 @@ export default {
     {
       referencia:
         'Instituto de hidrología, meteorología y estudios ambientales [Ideam]. (2014). Guía para el monitoreo de vertimientos de aguas superficiales y subterráneas.',
-      link: '',
+      link:
+        'http://www.corponor.gov.co/control_calidad/2014/Guia_monitoreo_IDEAM.pdf',
     },
     {
       referencia:
@@ -304,6 +301,12 @@ export default {
         'Instituto Nacional de Tecnología Agropecuaria [INTA]. (2011). Protocolo de muestreo, transporte y conservación de muestras de agua con fines múltiples. Argentina. ',
       link:
         'https://inta.gob.ar/sites/default/files/script-tmp-protocolo_de_muestreo_de_aguas_inta.pdf',
+    },
+    {
+      referencia:
+        'Ministerio de Educación [MinEducacion]. (2015). Manual de normas de seguridad en el laboratorio de química y de física para experiencias seguras de aprendizaje en el laboratorio.',
+      link:
+        'https://www.mineducacion.gov.co/1759/articles-355749_recurso_normatividad.pdf',
     },
     {
       referencia:
