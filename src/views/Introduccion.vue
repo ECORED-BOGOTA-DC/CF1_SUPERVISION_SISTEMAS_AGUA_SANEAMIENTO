@@ -17,10 +17,10 @@
       p Se abordarán tres temáticas que aportarán bases concretas en el proceso de programación de muestreo de agua, los cuales son:
 
     .row.justify-content-center.align-items-center.mt-5
-      .col-8.col-lg-4(data-aos="fade-up-right")
+      .col-8.col-lg-4(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/introduccion/img1.png', alt='alt')  
-      .col-11.col-lg-8.p-4.bg1-intro(data-aos="fade-up-left")
+      .col-11.col-lg-8.p-4.bg1-intro(data-aos="fade-left")
         .row.justify-content-center.align-items-center 
           .col-10
             p <b>Instrumentación de laboratorio:</b> elementos de vidrio, de plástico, conceptos de tomas físicas, químicas y microbiológicas, instrumentación y características del sitio de trabajo.
