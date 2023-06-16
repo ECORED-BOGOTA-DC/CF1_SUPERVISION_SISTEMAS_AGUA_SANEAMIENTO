@@ -509,7 +509,7 @@
         figure
           img(src='@/assets/curso/temas/tema3/img38.svg', alt='alt')  
 
-      .tarjeta.tarjeta-amarilla.p-3(x="19.5%" y="45.3%" numero="")
+      .tarjeta.tarjeta-amarilla.p-3(x="19.5%" y="45.3%" numero="1")
         .row.justify-content-center
           .col-4.col-lg-2.mb-3
             figure
@@ -517,7 +517,7 @@
           
           p Cerrar el envase asegurando su cierre hermético.
 
-      .tarjeta.tarjeta-amarilla.p-3(x="26.7%" y="64%" numero="")
+      .tarjeta.tarjeta-amarilla.p-3(x="26.7%" y="64%" numero="2")
         .row.justify-content-center
           .col-4.col-lg-2.mb-3
             figure
@@ -525,7 +525,7 @@
           
           p Si no estaba rotulada la botella rotularla con tinta indeleble. Siempre tener papel y cinta adhesiva para emergencias o muestras no planificadas.
 
-      .tarjeta.tarjeta-amarilla.p-3(x="38%" y="33%" numero="")
+      .tarjeta.tarjeta-amarilla.p-3(x="38%" y="33%" numero="3")
         .row.justify-content-center
           .col-4.col-lg-2.mb-3
             figure
@@ -533,7 +533,7 @@
           
           p Enjuagar 2 a 3 veces con la fuente de agua que se va a muestrear, desechando el agua de enjuague.
 
-      .tarjeta.tarjeta-amarilla.p-3(x="40%" y="67%" numero="")
+      .tarjeta.tarjeta-amarilla.p-3(x="40%" y="67%" numero="4")
         .row.justify-content-center
           .col-4.col-lg-2.mb-3
             figure
@@ -541,7 +541,7 @@
           
           p Que el envase tenga una capacidad de por lo menos 1 litro.
 
-      .tarjeta.tarjeta-amarilla.p-3(x="72%" y="11%" numero="")
+      .tarjeta.tarjeta-amarilla.p-3(x="72%" y="11%" numero="5")
         .row.justify-content-center
           .col-4.col-lg-2.mb-3
             figure
@@ -549,7 +549,7 @@
           
           p Si el envase está rotulado verificar que sea el correcto.
 
-      .tarjeta.tarjeta-amarilla.p-3(x="73.4%" y="38.7%" numero="")
+      .tarjeta.tarjeta-amarilla.p-3(x="73.4%" y="38.7%" numero="6")
         .row.justify-content-center
           .col-4.col-lg-2.mb-3
             figure
@@ -557,7 +557,7 @@
           
           p Guardar la muestra en lugar fresco (interior de un vehículo) o en conservadora si fuera necesario y llevarla al laboratorio en el menor tiempo posible (se recomienda como tiempo máximo de entrega a laboratorio de 4 días) (2011, p.5).
 
-      .tarjeta.tarjeta-amarilla.p-3(x="64%" y="57%" numero="")
+      .tarjeta.tarjeta-amarilla.p-3(x="64%" y="57%" numero="7")
         .row.justify-content-center
           .col-4.col-lg-2.mb-3
             figure
