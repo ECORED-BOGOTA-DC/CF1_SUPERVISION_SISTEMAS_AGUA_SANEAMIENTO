@@ -106,6 +106,18 @@ export default {
         numero: '5',
         titulo: 'Capacitación y SST en muestreo',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '5.1',
+            titulo: 'Formación y evaluación',
+            hash: 't_5_1',
+          },
+          {
+            numero: '5.2',
+            titulo: 'Seguridad y salud en el trabajo en muestreo',
+            hash: 't_5_2',
+          },
+        ],
       },
     ],
     subMenu: [
