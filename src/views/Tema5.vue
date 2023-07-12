@@ -35,7 +35,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4(data-aos="fade-right")
         figure.mb-4
-          img(src='@/assets/curso/temas/tema5/img2.svg', alt='alt')
+          img(src='@/assets/curso/temas/tema5/img2.svg', alt='Imágen decorativa')
 
       .col-lg-8(data-aos="fade-left")
         p De acuerdo con la Sociedad Americana de Química (2003), en su publicación Seguridad en los laboratorios químicos académicos, prevenir accidentes de cualquier tipo en un laboratorio, es responsabilidad de todos los que usan este espacio de trabajo, por lo cual es necesario siempre una actitud cooperativa activa, es importante recordar que los accidentes que se pueden dar cuando se trabaja con insumos químicos bien sea dentro de un laboratorio o en pruebas de campo, suelen ser asociadas a:
@@ -62,7 +62,7 @@
           .row.justify-content-center
             .col-5
               figure.my-3
-                img(src='@/assets/curso/temas/tema5/img3.svg', alt='alt')
+                img(src='@/assets/curso/temas/tema5/img3.svg', alt='Imágen decorativa')
 
           p.text-center Seguir las reglas de seguridad.
 
@@ -73,7 +73,7 @@
           .row.justify-content-center
             .col-5
               figure.my-3
-                img(src='@/assets/curso/temas/tema5/img4.svg', alt='alt')
+                img(src='@/assets/curso/temas/tema5/img4.svg', alt='Imágen decorativa')
 
           p.text-center No jugar bromas mientras realiza actividades de toma de muestras o de laboratorio.
 
@@ -84,7 +84,7 @@
           .row.justify-content-center
             .col-5
               figure.my-3
-                img(src='@/assets/curso/temas/tema5/img5.svg', alt='alt')
+                img(src='@/assets/curso/temas/tema5/img5.svg', alt='Imágen decorativa')
 
           p.text-center Familiarizarse con los equipos de seguridad.
 
@@ -95,7 +95,7 @@
           .row.justify-content-center
             .col-5
               figure.my-3
-                img(src='@/assets/curso/temas/tema5/img6.svg', alt='alt')
+                img(src='@/assets/curso/temas/tema5/img6.svg', alt='Imágen decorativa')
 
           p.text-center Siempre indagar antes sobre los peligrosos si va a manejar sustancias químicas.
 
@@ -108,7 +108,7 @@
         .tarjeta.color-acento-botones.p-4.bg-tarjeta
           .row.justify-content-center.mb-3
             .col-12
-              img(src='@/assets/curso/temas/tema5/img7.svg' alt='AvatarTop')
+              img(src='@/assets/curso/temas/tema5/img7.svg' alt='Imágen decorativa')
 
               .tarjeta-naranja.px-4.py-1.mt-3
                 h4.texto-blanco.text-center Cofia
@@ -118,7 +118,7 @@
         .tarjeta.color-acento-botones.p-4.bg-tarjeta
           .row.justify-content-center.mb-3
             .col-12
-              img(src='@/assets/curso/temas/tema5/img8.svg' alt='AvatarTop')
+              img(src='@/assets/curso/temas/tema5/img8.svg' alt='Imágen decorativa')
 
               .tarjeta-naranja.px-4.py-1.mt-3
                 h4.texto-blanco.text-center Casco
@@ -128,7 +128,7 @@
         .tarjeta.color-acento-botones.p-4.bg-tarjeta
           .row.justify-content-center.mb-3
             .col-12
-              img(src='@/assets/curso/temas/tema5/img9.svg' alt='AvatarTop')
+              img(src='@/assets/curso/temas/tema5/img9.svg' alt='Imágen decorativa')
 
               .tarjeta-naranja.px-4.py-1.mt-3
                 h4.texto-blanco.text-center Protección de ojos              
@@ -138,7 +138,7 @@
         .tarjeta.color-acento-botones.p-4.bg-tarjeta
           .row.justify-content-center.mb-3
             .col-12
-              img(src='@/assets/curso/temas/tema5/img10.svg' alt='AvatarTop')
+              img(src='@/assets/curso/temas/tema5/img10.svg' alt='Imágen decorativa')
 
               .tarjeta-naranja2.px-4.py-1.mt-3
                 h4.texto-blanco.text-center Mascarilla o tapabocas
@@ -148,7 +148,7 @@
         .tarjeta.color-acento-botones.p-4.bg-tarjeta
           .row.justify-content-center.mb-3
             .col-12
-              img(src='@/assets/curso/temas/tema5/img11.svg' alt='AvatarTop')
+              img(src='@/assets/curso/temas/tema5/img11.svg' alt='Imágen decorativa')
 
               .tarjeta-naranja2.px-4.py-1.mt-3
                 h4.texto-blanco.text-center Instrumental de campo o vestimenta              
@@ -158,7 +158,7 @@
         .tarjeta.color-acento-botones.p-4.bg-tarjeta
           .row.justify-content-center.mb-3
             .col-12
-              img(src='@/assets/curso/temas/tema5/img12.svg' alt='AvatarTop')
+              img(src='@/assets/curso/temas/tema5/img12.svg' alt='Imágen decorativa')
 
               .tarjeta-naranja.px-4.py-1.mt-3
                 h4.texto-blanco.text-center Bata de laboratorio              
@@ -168,7 +168,7 @@
         .tarjeta.color-acento-botones.p-4.bg-tarjeta
           .row.justify-content-center.mb-3
             .col-12
-              img(src='@/assets/curso/temas/tema5/img13.svg' alt='AvatarTop')
+              img(src='@/assets/curso/temas/tema5/img13.svg' alt='Imágen decorativa')
 
               .tarjeta-naranja.px-4.py-1.mt-3
                 h4.texto-blanco.text-center Zapatos              
@@ -178,7 +178,7 @@
         .tarjeta.color-acento-botones.p-4.bg-tarjeta
           .row.justify-content-center.mb-3
             .col-12
-              img(src='@/assets/curso/temas/tema5/img14.svg' alt='AvatarTop')
+              img(src='@/assets/curso/temas/tema5/img14.svg' alt='Imágen decorativa')
 
               .tarjeta-naranja3.px-4.py-1.mt-3
                 h4.texto-blanco.text-center Guantes de nitrilo, de neopreno, gruesos y delgados              
@@ -207,7 +207,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4(data-aos="fade-rigt")
         figure
-          img(src='@/assets/curso/temas/tema5/img15.svg', alt='alt')      
+          img(src='@/assets/curso/temas/tema5/img15.svg', alt='Imágen decorativa')      
 
       .col-lg-8(data-aos="fade-left")
         p Es de carácter obligatorio que el instructor dé a conocer a los aprendices las normas y disposiciones generales de seguridad de este manual, explicándoles y haciendo las aclaraciones necesarias, dando lugar a la participación de los aprendices.
@@ -229,7 +229,7 @@
 
       .col-lg-4(data-aos="fade-left")
         figure
-          img(src='@/assets/curso/temas/tema5/img16.svg', alt='alt')
+          img(src='@/assets/curso/temas/tema5/img16.svg', alt='Imágen decorativa')
 
     .row.mb-5(data-aos="fade-left")
       p Se recomienda ampliar la información en sesiones en línea con el instructor y el material de apoyo, pero se dejan las siguientes acciones para contrarrestar los peligros químicos:
@@ -238,7 +238,7 @@
       .col-lg-4(data-aos="fade-right")
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/tema5/img17.svg' alt='AvatarTop')
+            img(src='@/assets/curso/temas/tema5/img17.svg' alt='Imágen decorativa')
           .tarjeta.tarjeta-azul4
             .p-3
               p.mt-lg-2 Siempre lea detenidamente las etiquetas de las sustancias químicas antes de usarlas.
@@ -246,7 +246,7 @@
       .col-lg-4(data-aos="fade-down")
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/tema5/img18.svg' alt='AvatarTop')
+            img(src='@/assets/curso/temas/tema5/img18.svg' alt='Imágen decorativa')
           .tarjeta.tarjeta-azul4
             .p-3
               p.mt-lg-2 Siga las recomendaciones dadas en las hojas de seguridad de los productos.
@@ -254,7 +254,7 @@
       .col-lg-4(data-aos="fade-left")
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/tema5/img19.svg' alt='AvatarTop')
+            img(src='@/assets/curso/temas/tema5/img19.svg' alt='Imágen decorativa')
           .tarjeta.tarjeta-azul4
             .p-3
               p Siempre siga las recomendaciones de su instructor (Sociedad Americana de Química, 2003, p.10).

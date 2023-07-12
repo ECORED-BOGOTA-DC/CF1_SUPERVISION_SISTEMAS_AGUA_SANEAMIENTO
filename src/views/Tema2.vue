@@ -10,7 +10,7 @@
     .row.justify-content-center.align-items-center 
       .col-8.col-lg-3(data-aos="fade-up-right")
         figure.mb-3
-          img(src='@/assets/curso/temas/tema2/img1.png', alt='alt')  
+          img(src='@/assets/curso/temas/tema2/img1.png', alt='Imágen decorativa')  
       .col-lg-9(data-aos="fade-up-left")
         p Las principales razones de la importancia del alistamiento de las tomas de muestras tienen que ver con la necesidad de verificar si se cuenta con todos los implementos para lograr identificar la calidad del recurso objeto de análisis, bien sea cuencas de agua dulce, fuentes de agua salada, agua para consumo humano y la estimación de los flujos de contaminantes y nutrientes vertidos a los ríos o aguas subterráneas, lagos y océanos o a través de fronteras internacionales.
 
@@ -21,56 +21,56 @@
         .tarjeta.color-acento-botones.p-4.bg-tarjeta
           .row.justify-content-center.mb-3
             .col-11
-              img(src='@/assets/curso/temas/tema2/img2.png' alt='AvatarTop')
+              img(src='@/assets/curso/temas/tema2/img2.png' alt='Imágen decorativa')
 
           p.text-center.font-color Las posibles variables químicas o biológicas presentes en el agua que puedan generar un deterioro en el recurso.
 
         .tarjeta.color-acento-botones.p-4.bg-tarjeta
           .row.justify-content-center.mb-3
             .col-11
-              img(src='@/assets/curso/temas/tema2/img3.png' alt='AvatarTop')
+              img(src='@/assets/curso/temas/tema2/img3.png' alt='Imágen decorativa')
  
           p.text-center.font-color La relación existente entre la calidad y la cantidad de agua en el cuerpo de agua a estudiar.
 
         .tarjeta.color-acento-botones.p-4.bg-tarjeta
           .row.justify-content-center.mb-3
             .col-11
-              img(src='@/assets/curso/temas/tema2/img4.png' alt='AvatarTop')
+              img(src='@/assets/curso/temas/tema2/img4.png' alt='Imágen decorativa')
 
           p.text-center.font-color El establecimiento de límites permisibles, teniendo en cuenta normatividad aplicable a la región.
 
         .tarjeta.color-acento-botones.p-4.bg-tarjeta
           .row.justify-content-center.mb-3
             .col-11
-              img(src='@/assets/curso/temas/tema2/img5.png' alt='AvatarTop')
+              img(src='@/assets/curso/temas/tema2/img5.png' alt='Imágen decorativa')
 
           p.text-center.font-color Observación histórica de la afectación de la calidad del agua por procesos naturales.
 
         .tarjeta.color-acento-botones.p-4.bg-tarjeta
           .row.justify-content-center.mb-3
             .col-11
-              img(src='@/assets/curso/temas/tema2/img6.png' alt='AvatarTop')
+              img(src='@/assets/curso/temas/tema2/img6.png' alt='Imágen decorativa')
 
           p.text-center.font-color La capacidad del cuerpo de agua para asimilar el incremento de vertimientos puntuales sin causar altos niveles de contaminación.
 
         .tarjeta.color-acento-botones.p-4.bg-tarjeta
           .row.justify-content-center.mb-3
             .col-11
-              img(src='@/assets/curso/temas/tema2/img7.png' alt='AvatarTop')
+              img(src='@/assets/curso/temas/tema2/img7.png' alt='Imágen decorativa')
  
           p.text-center.font-color Las comunidades cercanas a la zona.
 
         .tarjeta.color-acento-botones.p-4.bg-tarjeta
           .row.justify-content-center.mb-3
             .col-11
-              img(src='@/assets/curso/temas/tema2/img8.png' alt='AvatarTop')
+              img(src='@/assets/curso/temas/tema2/img8.png' alt='Imágen decorativa')
 
           p.text-center.font-color Si han existido estrategias de control y de las acciones de gestión en el manejo de la calidad del agua.
 
         .tarjeta.color-acento-botones.p-4.bg-tarjeta
           .row.justify-content-center.mb-3
             .col-11
-              img(src='@/assets/curso/temas/tema2/img9.png' alt='AvatarTop')
+              img(src='@/assets/curso/temas/tema2/img9.png' alt='Imágen decorativa')
 
           p.text-center.font-color Si existe algún riesgo asociado a delincuencia o violencia que pueda afectar la toma de la muestra.
 

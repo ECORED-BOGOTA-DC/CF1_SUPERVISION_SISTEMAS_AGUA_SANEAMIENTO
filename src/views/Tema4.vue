@@ -10,7 +10,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/temas/tema4/img1.svg', alt='alt')  
+          img(src='@/assets/curso/temas/tema4/img1.svg', alt='Imágen decorativa')  
       .col-lg-8(data-aos="fade-left")
         p Se designa a través del concepto material de laboratorio a todo aquel material que puede ser empleado en un laboratorio (puede ser de vidrio, madera, metal, plástico, goma y porcelana) para realizar las típicas actividades que en este tipo de lugares se llevan a cabo, a saber: investigaciones, experimentos, estudios especiales sobre recursos, partículas u otros.
 
@@ -23,7 +23,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-6.col-lg-1(data-aos="fade-right")
         figure.mb-3
-          img(src='@/assets/curso/temas/tema4/img2.svg', alt='alt')
+          img(src='@/assets/curso/temas/tema4/img2.svg', alt='Imágen decorativa')
       
       .col-lg-11(data-aos="fade-left")
         p Los recipientes para la toma de muestras más usados para exámenes físicos - químicos y microbiológicos de acuerdo con el INS (2011), son de vidrio y plástico, y varían de acuerdo con la muestra y sus componentes. En algunos casos es requerido el uso de un blanco del recipiente para descartar interferencias; como se observa en la siguiente línea de tiempo: 
@@ -33,28 +33,28 @@
         .tarjeta.tarjeta-amarilla2.p-4
           .row 
             figure.mb-4
-              img(src='@/assets/curso/temas/tema4/img3.svg', alt='alt')
+              img(src='@/assets/curso/temas/tema4/img3.svg', alt='Imágen decorativa')
 
             h4 Vidrio
             p Las siguientes son las características que deben reunir los recipientes de vidrio para la toma de muestras, de acuerdo con el INS (2011):
 
             .col-4.col-lg-2
               figure.my-3
-                img(src='@/assets/curso/temas/tema4/img4.svg', alt='alt')            
+                img(src='@/assets/curso/temas/tema4/img4.svg', alt='Imágen decorativa')            
 
             .col-lg-10
               p Deben ser resistentes a altas temperaturas, ya que deben ser esterilizados a temperaturas de 120ºC o 160ºC para garantizar que los recipientes están libres de microorganismos antes de la toma de la muestra.
 
             .col-4.col-lg-2
               figure.my-3
-                img(src='@/assets/curso/temas/tema4/img5.svg', alt='alt')            
+                img(src='@/assets/curso/temas/tema4/img5.svg', alt='Imágen decorativa')            
 
             .col-lg-10
               p Deben ser de vidrios neutros para que durante el proceso de esterilización y de almacenamiento de la muestra no ocurran reacciones donde se liberan productos tóxicos que puedan afectar la viabilidad de los microorganismos presentes en la muestra.           
 
             .col-4.col-lg-2
               figure.mb-3
-                img(src='@/assets/curso/temas/tema4/img6.svg', alt='alt')            
+                img(src='@/assets/curso/temas/tema4/img6.svg', alt='Imágen decorativa')            
 
             .col-lg-10
               p Deben tener tapa rosca, preferiblemente de plástico, con forros de silicona termo-resistentes (p. 34).
@@ -63,7 +63,7 @@
         .tarjeta.tarjeta-azul.p-4
           .row 
             figure.mb-4
-              img(src='@/assets/curso/temas/tema4/img7.svg', alt='alt')
+              img(src='@/assets/curso/temas/tema4/img7.svg', alt='Imágen decorativa')
 
             h4 Plástico 
             p Los recipientes de plástico deben ser de polietileno, policarbonato o teflón si se requiere.
@@ -94,7 +94,7 @@
 
             .col-md-6
               figure
-                img(src='@/assets/curso/temas/tema4/img8.svg', alt='alt')
+                img(src='@/assets/curso/temas/tema4/img8.svg', alt='Imágen decorativa')
 
           .row
             .col-md-6.mb-4.mb-md-0
@@ -104,7 +104,7 @@
 
             .col-md-6
               figure
-                img(src='@/assets/curso/temas/tema4/img9.svg', alt='alt')
+                img(src='@/assets/curso/temas/tema4/img9.svg', alt='Imágen decorativa')
 
           .row
             .col-md-6.mb-4.mb-md-0
@@ -112,7 +112,7 @@
 
             .col-md-6
               figure
-                img(src='@/assets/curso/temas/tema4/img10.svg', alt='alt')
+                img(src='@/assets/curso/temas/tema4/img10.svg', alt='Imágen decorativa')
 
           .row
             .col-md-6.mb-4.mb-md-0
@@ -122,7 +122,7 @@
 
             .col-md-6
               figure
-                img(src='@/assets/curso/temas/tema4/img11.svg', alt='alt')
+                img(src='@/assets/curso/temas/tema4/img11.svg', alt='Imágen decorativa')
 
           .row
             .col-md-6.mb-4.mb-md-0
@@ -132,12 +132,12 @@
 
             .col-md-6
               figure
-                img(src='@/assets/curso/temas/tema4/img12.svg', alt='alt')
+                img(src='@/assets/curso/temas/tema4/img12.svg', alt='Imágen decorativa')
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4(data-aos="fade-right")
         figure.mb-4
-          img(src='@/assets/curso/temas/tema4/img13.svg', alt='alt')  
+          img(src='@/assets/curso/temas/tema4/img13.svg', alt='Imágen decorativa')  
       .col-lg-8(data-aos="fade-left")
         p Esterilización de los recipientes: los recipientes para la toma de muestras deben estar estériles. Es decir, deben haber sido #[b sometidos a procesos de esterilización.] La esterilización hace referencia a procesos físicos o químicos que eliminan cualquier forma de vida. Cuando se dice que un recipiente está estéril es porque en este no hay presencia de microorganismos o esporas termorresistentes.
 
@@ -148,7 +148,7 @@
         ImagenInfografica.color-acento-botones
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/temas/tema4/img14.svg', alt='alt')
+              img(src='@/assets/curso/temas/tema4/img14.svg', alt='Imágen decorativa')
 
           .tarjeta.tarjeta--azul.p-3(x="26.55%" y="50%" numero="")
             p Se realiza en un equipo llamado autoclave en el que mediante el vapor de agua se producen temperaturas de 121 ± 3 ºC y 1 atmósfera de presión. Cuanto se someten los recipientes a estas condiciones durante 15 minutos, los microorganismos o las esporas que estaban presentes en estos, mueren y como consecuencia los recipientes quedan estériles.
@@ -161,7 +161,7 @@
         .row.justify-content-center
           .col-8.col-lg-3(data-aos="fade-up")
             figure.my-4
-              img(src='@/assets/curso/temas/tema4/img15.svg', alt='alt')            
+              img(src='@/assets/curso/temas/tema4/img15.svg', alt='Imágen decorativa')            
 
           .col-lg-9(data-aos="fade-down")
             p A continuación, se presentan algunas indicaciones para tener en cuenta:
@@ -213,7 +213,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-6.col-lg-1(data-aos="fade-right")
         figure.mb-3
-          img(src='@/assets/curso/temas/tema4/img16.svg', alt='alt')
+          img(src='@/assets/curso/temas/tema4/img16.svg', alt='Imágen decorativa')
       
       .col-lg-11(data-aos="fade-left")
         p El trabajo práctico de toma de muestras en el sitio siempre se acompaña del uso de equipos y herramientas necesarias para tal fin, teniendo en cuenta no solo las condiciones mínimas de dichos implementos como que se encuentren calibrados, sino también el uso acorde a las indicaciones de cada equipo.
@@ -224,7 +224,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-6.col-lg-1(data-aos="fade-right")
         figure.mb-3
-          img(src='@/assets/curso/temas/tema4/img17.svg', alt='alt')
+          img(src='@/assets/curso/temas/tema4/img17.svg', alt='Imágen decorativa')
       
       .col-lg-11(data-aos="fade-left")
         p Para el Invemar manejar los equipos para las muestras superficiales es extremar la limpieza del material y procurar procedimientos que eviten la contaminación. En muestras superficiales la recolección se puede hacer manualmente introduciendo la botella colectora bajo la superficie, procurando siempre hacerlo a la misma profundidad (c.a. 25 cm), otras recomendaciones dadas para estos equipos son:
@@ -234,7 +234,7 @@
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/temas/tema4/img18.svg", alt="alt")
+              img(src="@/assets/curso/temas/tema4/img18.svg", alt="Imágen decorativa")
           .crd_hover_txt--body
             h4.mb-3.text-center Botellas Nansen
             p.mb-0.text-center Cuando el objetivo es obtener muestras de agua a profundidades determinadas, se emplean botellas colectoras dotadas de mecanismos de cierre para confinar la masa de agua que se encuentra a la profundidad de interés. En estudios oceanográficos, se emplean normalmente botellas Nansen para el análisis de los parámetros fisicoquímicos, pH, salinidad, oxígeno disuelto y nutrientes inorgánicos.
@@ -243,7 +243,7 @@
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/temas/tema4/img19.svg", alt="alt")
+              img(src="@/assets/curso/temas/tema4/img19.svg", alt="Imágen decorativa")
           .crd_hover_txt--body
             h4.mb-3.text-center Botellas Niskin
             p.mb-0.text-center Por tener capacidad de mayor volumen, son ideales para la obtención de muestras en el análisis de pigmentos fotosintéticos y contaminantes (pesticidas, metales pesados, etc.). Hay que tener bastante precaución cuando se usan estas botellas en el muestreo de aguas con alto contenido de sólidos sedimentables; su forma alargada y un flujo muy lento para extraer la muestra por las llaves, facilitan la sedimentación de los sólidos provocando diferencia en este parámetro entre las primeras y las últimas botellas receptoras que se llenan.
@@ -252,7 +252,7 @@
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/temas/tema4/img20.svg", alt="alt")
+              img(src="@/assets/curso/temas/tema4/img20.svg", alt="Imágen decorativa")
           .crd_hover_txt--body
             h4.mb-3.text-center Botella Van Dorn horizontal
             p.mb-0.text-center Es adecuada para colectar muestras de fondo en cuerpos de agua muy someros, siendo muy apropiada para estudios de estratificación vertical, termoclinas y termohalinas en lagunas costeras, mientras que las de funcionamiento vertical permiten colectar muestras a mayores profundidades.
@@ -263,7 +263,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-6.col-lg-1(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/temas/tema4/img21.svg', alt='alt')
+          img(src='@/assets/curso/temas/tema4/img21.svg', alt='Imágen decorativa')
       
       .col-lg-11.mt-3(data-aos="fade-left")
         p Es importante resaltar que también existe tomadores de muestras instrumentados y a menudo automatizados dentro de estos existen dos tipos principales; los dependientes del tiempo, que recogen muestras discretas, compuestas o continuas y los dependientes del volumen también recogen estos tipos de muestra y tienen en cuenta las variaciones en el flujo (NTC 5667-2, 1995).
@@ -293,7 +293,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-6.col-lg-1(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/temas/tema4/img22.svg', alt='alt')
+          img(src='@/assets/curso/temas/tema4/img22.svg', alt='Imágen decorativa')
       
       .col-lg-11.mt-3(data-aos="fade-left")
         p Dentro de los equipos o instrumentos más usados para la realización de los análisis se puede encontrar: termómetro, pHmetro y el turbidímetro.
@@ -309,7 +309,7 @@
           
             .col-md-5
               figure
-                img(src='@/assets/curso/temas/tema4/img23.svg', alt='alt')
+                img(src='@/assets/curso/temas/tema4/img23.svg', alt='Imágen decorativa')
 
 
           .row(titulo="pHmetro").mt-4
@@ -318,7 +318,7 @@
           
             .col-md-5
               figure
-                img(src='@/assets/curso/temas/tema4/img24.svg', alt='alt')
+                img(src='@/assets/curso/temas/tema4/img24.svg', alt='Imágen decorativa')
 
 
           .row(titulo="Turbidímetro").mt-4
@@ -327,7 +327,7 @@
           
             .col-md-5
               figure
-                img(src='@/assets/curso/temas/tema4/img25.svg', alt='alt')
+                img(src='@/assets/curso/temas/tema4/img25.svg', alt='Imágen decorativa')
 
     .row.mb-5(data-aos="fade-left")
       p De acuerdo con Invemar (2013), actualmente en la mayoría de los laboratorios, la medición del agua se realiza por medio de la conductividad, revise a continuación aspectos relacionados. 
@@ -350,7 +350,7 @@
           
             .col-md-5
               figure
-                img(src='@/assets/curso/temas/tema4/img29.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema4/img29.svg', alt='Imágen decorativa')
 
     .row.bg1-tema3-v2.align-items-center.mb-5(data-aos="fade-right")
       h4.text-white.mt-2 Revisión y calibración de los equipos de muestreo
@@ -363,14 +363,14 @@
       
       .col-lg-4(data-aos="fade-left")
         figure
-          img(src='@/assets/curso/temas/tema4/img30.svg', alt='alt')      
+          img(src='@/assets/curso/temas/tema4/img30.svg', alt='Imágen decorativa')      
 
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-6(data-aos="flip-right")
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/tema4/img31.svg' alt='AvatarTop')
+            img(src='@/assets/curso/temas/tema4/img31.svg' alt='Imágen decorativa')
           .tarjeta.tarjeta-amarilla5
             .p-4
               p #[b Sonda multiparámetro:] siempre revisar y calibrar los sensores de por lo menos 24 horas antes de la actividad; el sensor de oxígeno disuelto debe calibrarse entre cada muestreo si existe diferencias en la altitud. (Se puede usar si es aplicable el método Winkler como comparación).
@@ -378,7 +378,7 @@
       .col-lg-6(data-aos="flip-left")
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/tema4/img32.svg' alt='AvatarTop')
+            img(src='@/assets/curso/temas/tema4/img32.svg' alt='Imágen decorativa')
           .tarjeta.tarjeta-amarilla5
             .p-4
               p.mt-lg-3 #[b Medidores de campo sencillos (pHmetro y conductímetro):] el proceso de calibración debe darse diariamente siempre al inicio del primer muestreo (2014, p 21).
@@ -389,7 +389,7 @@
           .row.justify-content-center
             .col-6.col-lg-3
               figure.mb-3
-                img(src='@/assets/curso/temas/tema4/img33.svg', alt='alt').img3-tm4
+                img(src='@/assets/curso/temas/tema4/img33.svg', alt='Imágen decorativa').img3-tm4
 
             .col-lg-9 
               p.mb-0 Recuerde que el éxito del muestreo se determina según el conocimiento del lugar de muestreo y de la necesidad de los parámetros a identificar, luego siempre revise el equipo antes de ir a tomar la muestra, temas como; longitudes de sondas, pilas cargadas, funcionamiento y calibración son acciones previas obligatorias.      

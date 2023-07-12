@@ -21,7 +21,7 @@
 
       figure(data-aos="flip-up")
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/11111111" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/ivfkDtPwXk4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     separador
     #t_3_1.titulo-segundo.color-acento-botones(data-aos="fade-right")
@@ -30,7 +30,7 @@
     .row.justify-content-center.align-items-center 
       .col-8.col-lg-3(data-aos="fade-down-right")
         figure.mb-3
-          img(src='@/assets/curso/temas/tema3/img2.png', alt='alt')  
+          img(src='@/assets/curso/temas/tema3/img2.png', alt='Imágen decorativa')  
       .col-lg-9
         p(data-aos="fade-down-left") Los tipos y técnicas de muestreo varían de acuerdo con la situación específica y según los objetivos previstos; algunos estudios requieren solamente #[b muestras instantáneas o simples], mientras que en otros se necesita disponer de #[b muestras compuestas] o aún más elaboradas en tiempo y espacio. 
 
@@ -45,7 +45,7 @@
     .row.justify-content-center.align-items-center.mt-5
       .col-6.col-lg-1(data-aos="fade-down-right")
         figure
-          img(src='@/assets/curso/temas/tema3/img3.svg', alt='alt')  
+          img(src='@/assets/curso/temas/tema3/img3.svg', alt='Imágen decorativa')  
       .col-lg-11(data-aos="fade-up-left")
         p Antes de iniciar el muestreo, es elemental tener claramente definido la forma como serán tomadas las muestras para poder realizar un trabajo de campo; Según el Instituto Colombiano de Normas Técnicas y Certificación [Icontec] (1995) en la norma técnica colombiana <b>[NTC] 5667-2 Técnicas generales de muestreo</b>, dentro de los tipos de muestras se pueden encontrar: sencillas, compuestas, periódicas, continuas y de serie (pp.2-8). 
 
@@ -62,7 +62,7 @@
 
             .col-md-6
               figure
-                img(src='@/assets/curso/temas/tema3/img4.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema3/img4.png', alt='Imágen decorativa')
 
           .row
             .col-md-6.mb-4.mb-md-0
@@ -74,11 +74,11 @@
               .row.justify-content-center.mt-3
                 .col-8.col-lg-4
                   figure
-                    img(src='@/assets/curso/temas/tema3/img8.svg', alt='Texto que describa la imagen')
+                    img(src='@/assets/curso/temas/tema3/img8.svg', alt='Imágen decorativa')
 
             .col-md-6
               figure
-                img(src='@/assets/curso/temas/tema3/img5.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema3/img5.png', alt='Imágen decorativa')
               
           .row
             .col-md-6.mb-4.mb-md-0
@@ -89,7 +89,7 @@
 
             .col-md-6
               figure
-                img(src='@/assets/curso/temas/tema3/img6.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema3/img6.png', alt='Imágen decorativa')
 
           .row
             .col-md-6.mb-4.mb-md-0
@@ -104,7 +104,7 @@
 
             .col-md-6
               figure
-                img(src='@/assets/curso/temas/tema3/img7.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema3/img7.png', alt='Imágen decorativa')
                 
 
       p.mt-5 La norma NTC ISO 5567-2, en el numeral 4 indica los tipos de muestras según procedimientos estandarizados, consultarla en la base de datos del SENA.    
@@ -121,7 +121,7 @@
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/temas/tema3/img9.svg", alt="alt")
+              img(src="@/assets/curso/temas/tema3/img9.svg", alt="Imágen decorativa")
           .crd_hover_txt--body
             h4.mb-3.text-center Muestreo manual
             p.mb-0.text-center Se realiza para sitios de fácil acceso o aquellos que con ciertas adaptaciones puedan facilitar la toma de muestras. Permite al encargado de la toma, observar los cambios en las características del agua en cuanto a sustancias flotantes, color, olor, aumento o disminución de caudales, entre otros (2011, p. 21).
@@ -130,7 +130,7 @@
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/temas/tema3/img10.svg", alt="alt")
+              img(src="@/assets/curso/temas/tema3/img10.svg", alt="Imágen decorativa")
           .crd_hover_txt--body
             h4.mb-3.text-center Muestreo automático
             p.mb-0.text-center En lugares de difícil acceso se recomiendan muestreadores automáticos, son precisos, aunque su desventaja es el montaje y calibración del equipo; su aplicación implica instalación de equipos (antenas, paneles solares, etc.) y herramientas (licencias de trasmisión, #[i software]) elevando  costos y  limitando su implementación (INS, 2011, pp. 21-22).
@@ -139,7 +139,7 @@
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/temas/tema3/img11.svg", alt="alt")
+              img(src="@/assets/curso/temas/tema3/img11.svg", alt="Imágen decorativa")
           .crd_hover_txt--body
             h4.mb-3.text-center Muestreo mixto
             p.mb-0.text-center Según el INS (2007) se operan programas de muestreo mixto, convirtiendo el monitoreo en un sistema integrado que permite la verificación manual de los resultados obtenidos de forma automática. Esta se realiza aleatoriamente, de tal manera que se pueda realizar calibración, ajuste y mantenimiento de los equipos automáticos (p.22). 
@@ -147,7 +147,7 @@
     .row.justify-content-center.align-items-center.mt-5
       .col-6.col-lg-1(data-aos="fade-down-right")
         figure.mb-3
-          img(src='@/assets/curso/temas/tema3/img12.svg', alt='alt')
+          img(src='@/assets/curso/temas/tema3/img12.svg', alt='Imágen decorativa')
       .col-11(data-aos="fade-up-left")
         p Las técnicas del muestreo de agua para #[b análisis microbiológicos] básicamente incluyen procedimientos para prevenir su contaminación durante el llenado de los recipientes por microorganismos presentes en el exterior de los grifos, accesorios, en el ambiente o en el operario. Las técnicas de llenado de los recipientes se pueden dividir en dos: #[b muestreo en el grifo o muestreo por inmersión.]
 
@@ -157,7 +157,7 @@
     .row.justify-content-center.align-items-center.mt-5
       .col-8.col-lg-3(data-aos="fade-down-right")
         figure.mb-3
-          img(src='@/assets/curso/temas/tema3/img13.png', alt='alt')  
+          img(src='@/assets/curso/temas/tema3/img13.png', alt='Imágen decorativa')  
       .col-lg-9(data-aos="fade-up-left")
         p Este tipo de muestreo se aplica específicamente para las muestras de #[b agua potable de llave]. Estas pueden ser tomadas en plantas de tratamiento y tanques de almacenamiento, agua en la red de distribución, agua del grifo del consumidor, agua para consumo, agua de manantiales o pozos que cuenten con dispositivos de tomas de muestra instalados permanentemente.
 
@@ -178,7 +178,7 @@
           
             .col-md-4
               figure
-                img(src='@/assets/curso/temas/tema3/img14.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema3/img14.png', alt='Imágen decorativa')
 
           .row(titulo="Norma 2")
             .col-md-8.mb-4.mb-md-0
@@ -186,7 +186,7 @@
           
             .col-md-4
               figure
-                img(src='@/assets/curso/temas/tema3/img15.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema3/img15.png', alt='Imágen decorativa')
 
           .row(titulo="Norma 3")
             .col-md-8.mb-4.mb-md-0
@@ -194,7 +194,7 @@
           
             .col-md-4
               figure
-                img(src='@/assets/curso/temas/tema3/img16.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema3/img16.png', alt='Imágen decorativa')
 
           .row(titulo="Norma 4")
             .col-md-8.mb-4.mb-md-0
@@ -204,7 +204,7 @@
           
             .col-md-4
               figure
-                img(src='@/assets/curso/temas/tema3/img17.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema3/img17.png', alt='Imágen decorativa')
 
           .row(titulo="Norma 5")
             .col-md-8.mb-4.mb-md-0
@@ -212,7 +212,7 @@
           
             .col-md-4
               figure
-                img(src='@/assets/curso/temas/tema3/img18.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema3/img18.png', alt='Imágen decorativa')
 
 
           .row(titulo="Norma 6")
@@ -221,7 +221,7 @@
           
             .col-md-4
               figure
-                img(src='@/assets/curso/temas/tema3/img19.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema3/img19.png', alt='Imágen decorativa')
 
             
           .row(titulo="Norma 7")
@@ -230,7 +230,7 @@
           
             .col-md-4
               figure
-                img(src='@/assets/curso/temas/tema3/img20.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema3/img20.png', alt='Imágen decorativa')
 
           .row(titulo="Norma 8")
             .col-md-8.mb-4.mb-md-0
@@ -238,12 +238,12 @@
           
             .col-md-4
               figure
-                img(src='@/assets/curso/temas/tema3/img21.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema3/img21.png', alt='Imágen decorativa')
       
        
       .col-6.col-lg-4(data-aos="fade-down-left")
         figure
-          img(src='@/assets/curso/temas/tema3/img22.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/tema3/img22.png', alt='Imágen decorativa')
 
     .row.bg1-tema3.align-items-center.mt-5(data-aos="fade-right")
       h4.text-white.mt-2 Muestreo por inmersión
@@ -251,7 +251,7 @@
     .row.justify-content-center.align-items-center.mt-5
       .col-6.col-lg-3(data-aos="fade-down-right")
         figure.mb-3
-          img(src='@/assets/curso/temas/tema3/img23.png', alt='alt')  
+          img(src='@/assets/curso/temas/tema3/img23.png', alt='Imágen decorativa')  
           
       .col-lg-9(data-aos="fade-up-left")
         p Se realiza cuando se requiere tomar muestras de profundidad por ejemplo, en el caso de muestreos de tanques de almacenamiento que no cuenten con dispositivos de muestras o en el agua de manantiales, pozos o  piscinas.
@@ -266,18 +266,35 @@
           .row(titulo="1")
             .col-md-6
               figure.mb-3
-                img(src='@/assets/curso/temas/tema3/img24.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema3/img24.png', alt='Imágen decorativa')
               
             .col-md-6.mb-4.mb-md-0
               p En el caso de la toma de las piscinas, la muestra se debe tomar de -10 cm a -20 cm de profundidad y el recipiente se introduce horizontalmente para evitar la pérdida de tiosulfato. Para balnearios se hace de manera similar haciendo la toma a -20 cm a -30 cm.
 
+            .row.justify-content-center.align-items-center.mt-5
+              .col-lg-6
+                TarjetaAudio.color-acento-botones.mb-3(
+                  texto=" "
+                  :audio="require('@/assets/componentes/audios/muestreo-piscinas.mp3')"
+                  @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                  )
+
+
           .row(titulo="2")
             .col-md-6
               figure.mb-3
-                img(src='@/assets/curso/temas/tema3/img25.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema3/img25.png', alt='Imágen decorativa')
               
             .col-md-6.mb-4.mb-md-0
               p En el caso de pozos o manantiales sin dispositivos de muestreo, la toma se debe hacer con bombas o dispositivos sumergibles estériles.
+
+            .row.justify-content-center.align-items-center.mt-5
+              .col-lg-6
+                TarjetaAudio.color-acento-botones.mb-3(
+                  texto=" "
+                  :audio="require('@/assets/componentes/audios/muestreo-pozos_o_manantiales.mp3')"
+                  @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                  )
 
           .row(titulo="3")
             .col-md-6
@@ -286,6 +303,14 @@
               
             .col-md-6.mb-4.mb-md-0
               p En el caso de aguas profundas en el mar, lagos o ríos e incluso de aguas residuales que serán analizadas microbiológicamente, es recomendable usar dispositivos especializados como el muestreador ZoBell J-Z.
+
+            .row.justify-content-center.align-items-center.mt-5
+              .col-lg-6
+                TarjetaAudio.color-acento-botones.mb-3(
+                  texto=" "
+                  :audio="require('@/assets/componentes/audios/muestreo-aguas_profundas.mp3')"
+                  @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                  )
 
       p.mt-5 Se invita a consultar información según las normas aplicadas.
 
@@ -310,7 +335,7 @@
     .row.justify-content-center.align-items-center.mt-5
       .col-8.col-lg-4(data-aos="fade-down-right")
         figure.mb-3
-          img(src='@/assets/curso/temas/tema3/img28.png', alt='alt')
+          img(src='@/assets/curso/temas/tema3/img28.png', alt='Imágen decorativa')
       
       .col-lg-8(data-aos="fade-up-left")
         p Esta es una técnica sencilla que involucra el proceso de la toma de la muestra, sin embargo, es una estrategia que se ha incentivado por ser algo práctico, de fácil ejecución y de buenos resultados de acuerdo con el Servicio Geológico de los Estados Unidos [USGS], en su manual de campo interinstitucional para la recolección de datos sobre la calidad del agua (2000).
@@ -333,7 +358,7 @@
     ImagenInfografica.color-acento-contenido
       template(v-slot:imagen)
         figure
-          img(src='@/assets/curso/temas/tema3/img29.svg', alt='alt')
+          img(src='@/assets/curso/temas/tema3/img29.svg', alt='')
 
       .tarjeta.tarjeta--blanca.p-3(x="17%" y="30.3%" numero="")
         .h5.mb-2 
@@ -349,7 +374,7 @@
           .row.justify-content-center.align-items-center
             .col-4.col-lg-1
               figure.mb-3.mb-lg-0
-                img(src='@/assets/curso/temas/tema3/img29-1.svg', alt='alt')          
+                img(src='@/assets/curso/temas/tema3/img29-1.svg', alt='Imágen decorativa')          
             .col-lg-11
               p.mb-0.texto-blanco Tareas específicas se asignan al comienzo a ML o MS, algunas de ellas se superponen y pueden ser manejadas por una u otra persona siempre que no se introduzca contaminación en las muestras.
 
@@ -360,7 +385,7 @@
     .row.justify-content-center.align-items-center.my-5
       .col-8.col-lg-4(data-aos="fade-down-right")
         figure.mb-3
-          img(src='@/assets/curso/temas/tema3/img30.png', alt='alt')
+          img(src='@/assets/curso/temas/tema3/img30.png', alt='Imágen decorativa')
       .col-lg-8(data-aos="fade-up-left")
         p La última técnica a mencionar es la que se basa en una muestra que se toma totalmente al azar, por medio de un recipiente abierto: el cual se coloca en un solo punto en la superficie (arroyo, embalse, río etc.), estas muestras por lo general se toman antes de hacer otro trabajo en el lugar para no afectar la corriente y la posterior recolección; para esta técnica se utilizan muestreadores colectores que suelen pararse corriente abajo de la botella durante la operación de llenado, evitando que entren partículas que estén suspendidas  (NTC 5667-2, 1995).
 
@@ -390,7 +415,7 @@
       
       .col-lg-4(data-aos="fade-down-left")
         figure
-          img(src='@/assets/curso/temas/tema3/img31.svg', alt='alt')        
+          img(src='@/assets/curso/temas/tema3/img31.svg', alt='Imágen decorativa')        
 
     .tarjeta.tarjeta--amarilla.p-5
       SlyderA(tipo="b")
@@ -401,7 +426,7 @@
 
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/tema3/img32.svg', alt='alt')
+              img(src='@/assets/curso/temas/tema3/img32.svg', alt='Imágen decorativa')
 
         .row
           .col-md-6.mb-4.mb-md-0
@@ -410,7 +435,7 @@
 
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/tema3/img33.svg', alt='alt')
+              img(src='@/assets/curso/temas/tema3/img33.svg', alt='Imágen decorativa')
             
         .row
           .col-md-6.mb-4.mb-md-0
@@ -419,7 +444,7 @@
 
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/tema3/img34.svg', alt='alt')
+              img(src='@/assets/curso/temas/tema3/img34.svg', alt='Imágen decorativa')
 
         .row
           .col-md-6.mb-4.mb-md-0
@@ -428,7 +453,7 @@
 
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/tema3/img35.svg', alt='alt')
+              img(src='@/assets/curso/temas/tema3/img35.svg', alt='Imágen decorativa')
 
         .row
           .col-md-6.mb-4.mb-md-0
@@ -437,7 +462,7 @@
 
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/tema3/img36.svg', alt='alt')
+              img(src='@/assets/curso/temas/tema3/img36.svg', alt='Imágen decorativa')
 
 
     separador
@@ -447,7 +472,7 @@
     .row.mb-5
       .col-10.col-lg-4(data-aos="fade-down-right")
         figure.mb-4
-          img(src='@/assets/curso/temas/tema3/img37.svg', alt='alt')  
+          img(src='@/assets/curso/temas/tema3/img37.svg', alt='Imágen decorativa')  
 
       .col-lg-8
         p(data-aos="fade-down-left") Generalmente se recomienda trabajar con un volumen mínimo de 2 litros. Sin embargo, el volumen de muestra requerido puede variar en función del tipo y número de análisis fisicoquímico a desarrollar, así como de las concentraciones de los analitos (INS, 2011, p.44). Particularmente el volumen requerido es determinado por el laboratorio teniendo en cuenta que el volumen base puede ser analizado por duplicado o triplicado.
@@ -507,13 +532,13 @@
     ImagenInfografica.color-acento-botones
       template(v-slot:imagen)
         figure
-          img(src='@/assets/curso/temas/tema3/img38.svg', alt='alt')  
+          img(src='@/assets/curso/temas/tema3/img38.svg', alt='Imágen decorativa')  
 
       .tarjeta.tarjeta-amarilla.p-3(x="19.5%" y="45.3%" numero="1")
         .row.justify-content-center
           .col-4.col-lg-2.mb-3
             figure
-              img(src='@/assets/curso/temas/tema3/img39.svg', alt='alt')          
+              img(src='@/assets/curso/temas/tema3/img39.svg', alt='Imágen decorativa')          
           
           p Cerrar el envase asegurando su cierre hermético.
 
@@ -521,7 +546,7 @@
         .row.justify-content-center
           .col-4.col-lg-2.mb-3
             figure
-              img(src='@/assets/curso/temas/tema3/img40.svg', alt='alt')          
+              img(src='@/assets/curso/temas/tema3/img40.svg', alt='Imágen decorativa')          
           
           p Si no estaba rotulada la botella rotularla con tinta indeleble. Siempre tener papel y cinta adhesiva para emergencias o muestras no planificadas.
 
@@ -529,7 +554,7 @@
         .row.justify-content-center
           .col-4.col-lg-2.mb-3
             figure
-              img(src='@/assets/curso/temas/tema3/img41.svg', alt='alt')          
+              img(src='@/assets/curso/temas/tema3/img41.svg', alt='Imágen decorativa')          
           
           p Enjuagar 2 a 3 veces con la fuente de agua que se va a muestrear, desechando el agua de enjuague.
 
@@ -537,7 +562,7 @@
         .row.justify-content-center
           .col-4.col-lg-2.mb-3
             figure
-              img(src='@/assets/curso/temas/tema3/img42.svg', alt='alt')          
+              img(src='@/assets/curso/temas/tema3/img42.svg', alt='Imágen decorativa')          
           
           p Que el envase tenga una capacidad de por lo menos 1 litro.
 
@@ -545,7 +570,7 @@
         .row.justify-content-center
           .col-4.col-lg-2.mb-3
             figure
-              img(src='@/assets/curso/temas/tema3/img43.svg', alt='alt')          
+              img(src='@/assets/curso/temas/tema3/img43.svg', alt='Imágen decorativa')          
           
           p Si el envase está rotulado verificar que sea el correcto.
 
@@ -553,7 +578,7 @@
         .row.justify-content-center
           .col-4.col-lg-2.mb-3
             figure
-              img(src='@/assets/curso/temas/tema3/img44.svg', alt='alt')          
+              img(src='@/assets/curso/temas/tema3/img44.svg', alt='Imágen decorativa')          
           
           p Guardar la muestra en lugar fresco (interior de un vehículo) o en conservadora si fuera necesario y llevarla al laboratorio en el menor tiempo posible (se recomienda como tiempo máximo de entrega a laboratorio de 4 días) (2011, p.5).
 
@@ -561,7 +586,7 @@
         .row.justify-content-center
           .col-4.col-lg-2.mb-3
             figure
-              img(src='@/assets/curso/temas/tema3/img45.svg', alt='alt')          
+              img(src='@/assets/curso/temas/tema3/img45.svg', alt='Imágen decorativa')          
           
           p Recoger la muestra sin dejar cámara de aire. Se puede dejar un mínimo sin llenar que permita la variación de volumen debida a potenciales diferencias térmicas. Si se le va a agregar algún conservante contemplar el volumen necesario para el mismo.
 
@@ -572,7 +597,7 @@
     .row.mb-5
       .col-10.col-lg-4(data-aos="fade-down-right")
         figure.mb-4
-          img(src='@/assets/curso/temas/tema3/img46.svg', alt='alt')  
+          img(src='@/assets/curso/temas/tema3/img46.svg', alt='Imágen decorativa')  
 
       .col-lg-8(data-aos="fade-up-left")
         p Los ensayos #[b #[i in situ]], son los ensayos o mediciones que realizan de algunos parámetros en campo, que por su naturaleza si no se realiza de manera inmediata los resultados arrojados posteriormente no serán verídicos, para agua de consumo humano se encuentran dentro de estos parámetros: la temperatura, el olor, el sabor, el cloro residual libre y el pH (INS, 2011, p.46); sin embargo,  para otros tipos de aguas como las residuales o las superficiales, estos también son aplicables para mediciones #[b #[i in situ]] incluyendo conductividad, turbidez y oxígeno disuelto, la medición de estos se realiza con el equipo multiparamétrico.
@@ -587,7 +612,7 @@
         .tarjeta.tarjeta--naranja.p-4
           .row.justify-content-center.mb-3
             .col-7.col-lg-6
-              img(src='@/assets/curso/temas/tema3/img47.svg' alt='AvatarTop')
+              img(src='@/assets/curso/temas/tema3/img47.svg' alt='Imágen decorativa')
 
           h4.text-center Oxígeno disuelto
 
@@ -596,7 +621,7 @@
         .tarjeta.tarjeta--naranja.p-4
           .row.justify-content-center.mb-3
             .col-7.col-lg-6
-              img(src='@/assets/curso/temas/tema3/img48.svg' alt='AvatarTop')
+              img(src='@/assets/curso/temas/tema3/img48.svg' alt='Imágen decorativa')
 
           h4.text-center Conductividad
  
@@ -605,7 +630,7 @@
         .tarjeta.tarjeta--naranja.p-4
           .row.justify-content-center.mb-3
             .col-7.col-lg-6
-              img(src='@/assets/curso/temas/tema3/img49.svg' alt='AvatarTop')
+              img(src='@/assets/curso/temas/tema3/img49.svg' alt='Imágen decorativa')
           
           h4.text-center pH
 
@@ -614,7 +639,7 @@
         .tarjeta.tarjeta--naranja.p-4
           .row.justify-content-center.mb-3
             .col-8.col-lg-6
-              img(src='@/assets/curso/temas/tema3/img50.svg' alt='AvatarTop')
+              img(src='@/assets/curso/temas/tema3/img50.svg' alt='Imágen decorativa')
 
           h4.text-center Temperatura
  
@@ -623,7 +648,7 @@
         .tarjeta.tarjeta--naranja.p-4
           .row.justify-content-center.mb-3
             .col-7.col-lg-6
-              img(src='@/assets/curso/temas/tema3/img51.svg' alt='AvatarTop')
+              img(src='@/assets/curso/temas/tema3/img51.svg' alt='Imágen decorativa')
           
           h4.text-center Turbidez
 
@@ -636,7 +661,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4(data-aos="fade-down-right")
         figure.mb-4
-          img(src='@/assets/curso/temas/tema3/img52.svg', alt='alt')  
+          img(src='@/assets/curso/temas/tema3/img52.svg', alt='Imágen decorativa')  
 
       .col-lg-8(data-aos="fade-up-left")
         p El personal de monitoreo deberá obtener toda la información posible y de manera detallada acerca de las estaciones del recurso hídrico a monitorear, generalmente esta información es proporcionada por el cliente, ello servirá para planear todo el procedimiento de muestreo.
@@ -653,7 +678,7 @@
           
             .col-md-6
               figure
-                img(src='@/assets/curso/temas/tema3/img53.svg', alt='alt') 
+                img(src='@/assets/curso/temas/tema3/img53.svg', alt='Imágen decorativa') 
 
           .row(numero="2" titulo="Establecer puntos fijos")
             .col-md-6.mb-4.mb-md-0
@@ -661,7 +686,7 @@
           
             .col-md-6
               figure
-                img(src='@/assets/curso/temas/tema3/img54.svg', alt='alt') 
+                img(src='@/assets/curso/temas/tema3/img54.svg', alt='Imágen decorativa') 
                 
           .row(numero="3" titulo="Establecer puntos de interés general")
             .col-md-6.mb-4.mb-md-0
@@ -669,11 +694,11 @@
           
             .col-md-6
               figure
-                img(src='@/assets/curso/temas/tema3/img56.svg', alt='alt') 
+                img(src='@/assets/curso/temas/tema3/img56.svg', alt='Imágen decorativa') 
 
       .col-10.col-lg-4(data-aos="fade-left")
         figure
-          img(src='@/assets/curso/temas/tema3/img57.svg', alt='alt')         
+          img(src='@/assets/curso/temas/tema3/img57.svg', alt='Imágen decorativa')         
 
     .mb-5
       p Para muestreos que no son de agua para consumo humano siempre se recomienda:
@@ -683,7 +708,7 @@
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/temas/tema3/img58.svg", alt="alt")
+              img(src="@/assets/curso/temas/tema3/img58.svg", alt="Imágen decorativa")
           .crd_hover_txt--body
             h4.mb-3 Uno
             p.mb-0.text-center Identificar la zona previamente; si es posible georreferenciar la zona, indagar sobre el uso del recurso, la población y situación actual del mismo.
@@ -692,7 +717,7 @@
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/temas/tema3/img59.svg", alt="alt")
+              img(src="@/assets/curso/temas/tema3/img59.svg", alt="Imágen decorativa")
           .crd_hover_txt--body
             h4.mb-3 Dos
             p.mb-0.text-center Para aguas residuales, solicitar los permisos con anterioridad, verificar la zona y llevar los elementos de protección requeridos.
@@ -701,7 +726,7 @@
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/temas/tema3/img60.svg", alt="alt")
+              img(src="@/assets/curso/temas/tema3/img60.svg", alt="Imágen decorativa")
           .crd_hover_txt--body
             h4.mb-3 Tres
             p.mb-0.text-center Recuerde llevar la documentación para registrar horas, fechas, lugares de la toma de muestras (Resolución 0811, 2008).
@@ -712,7 +737,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-1(data-aos="fade-down-right")
         figure
-          img(src='@/assets/curso/temas/tema3/img61.svg', alt='alt')  
+          img(src='@/assets/curso/temas/tema3/img61.svg', alt='Imágen decorativa')  
       .col-11(data-aos="fade-up-left")
         p La forma de tomar la muestra y el punto de muestreo está condicionado al lugar de este, por eso se debe considerar algunas particularidades a la hora de realizar una actividad de muestreo, para Ferro (2020), en su libro denominado Perito en salud medioambiental, según las diferentes fuentes de agua las características del muestreo deben ser:
 
@@ -724,7 +749,7 @@
         
           .col-md-5
             figure
-              img(src='@/assets/curso/temas/tema3/img63.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema3/img63.svg', alt='Imágen decorativa')
 
       .py-4.py-md-5(titulo="Ríos y arroyos" :icono="require('@/assets/curso/temas/tema3/img64.svg')")
         .row
@@ -733,7 +758,7 @@
         
           .col-md-5
             figure
-              img(src='@/assets/curso/temas/tema3/img65.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema3/img65.svg', alt='Imágen decorativa')
 
       .py-4.py-md-5(titulo="Lagos y reservorios" :icono="require('@/assets/curso/temas/tema3/img66.svg')")
         .row
@@ -742,7 +767,7 @@
         
           .col-md-5
             figure
-              img(src='@/assets/curso/temas/tema3/img67.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema3/img67.svg', alt='Imágen decorativa')
 
     separador
     #t_3_5.titulo-segundo.color-acento-botones(data-aos="fade-right")
@@ -751,14 +776,14 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-6.col-lg-1(data-aos="fade-down-right")
         figure.mb-3
-          img(src='@/assets/curso/temas/tema3/img68.svg', alt='alt')  
+          img(src='@/assets/curso/temas/tema3/img68.svg', alt='Imágen decorativa')  
       .col-lg-11(data-aos="fade-up-left")
         p El plan de muestreo es un instrumento de planeación en el cual se deja todo consolidado sobre el muestreo a realizar. Para el caso de muestras de agua potable existe una base normativa que da las directrices para este documento,  la Resolución 0811 de 2008 y la Resolución 2115 de 2007. Que pueden ser consultadas mediante las alternativas dispuestas por los entes y autoridades competentes.
 
     .row.mb-5
       .col-10.col-lg-4(data-aos="fade-down-right")
         figure.mb-4
-          img(src='@/assets/curso/temas/tema3/img69.svg', alt='alt')  
+          img(src='@/assets/curso/temas/tema3/img69.svg', alt='Imágen decorativa')  
 
       .col-lg-8(data-aos="fade-up-left")
         p En general, se recomienda que el plan de muestreo especifique como mínimo los siguientes ítems según la Icontec (1995), en la Norma Técnica Colombiana [NTC] 5667-1, Directrices para el diseño de programas de muestreo:

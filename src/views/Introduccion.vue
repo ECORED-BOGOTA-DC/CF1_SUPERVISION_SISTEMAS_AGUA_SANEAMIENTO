@@ -19,7 +19,7 @@
     .row.justify-content-center.align-items-center.mt-5
       .col-8.col-lg-4(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/temas/introduccion/img1.png', alt='alt')  
+          img(src='@/assets/curso/temas/introduccion/img1.png', alt='Imágen decorativa')  
       .col-11.col-lg-8.p-4.bg1-intro(data-aos="fade-left")
         .row.justify-content-center.align-items-center 
           .col-10
