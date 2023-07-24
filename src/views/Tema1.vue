@@ -18,7 +18,7 @@
             figure
               img(src='@/assets/curso/temas/tema1/img2.png', alt='Imágen decorativa')  
           .col-11.col-lg-10
-            p Generalmente, en el diario vivir se realizan actividades que tienen una incidencia en el ambiente, bien sea porque parten del uso y aprovechamiento de un recurso o por qué dicha actividad genera una modificación de un recurso natural existente; Sin embargo, son estas acciones cotidianas las que brindan en gran medida un conocimiento previo sobre la naturaleza, en este caso el recurso hídrico y su importancia.
+            p Generalmente, en el diario vivir se realizan actividades que tienen una incidencia en el ambiente, bien sea porque parten del uso y aprovechamiento de un recurso o porque dicha actividad genera una modificación de un recurso natural existente; Sin embargo, son estas acciones cotidianas las que brindan en gran medida un conocimiento previo sobre la naturaleza, en este caso el recurso hídrico y su importancia.
       
 </template>
 

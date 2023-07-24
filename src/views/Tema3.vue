@@ -85,7 +85,7 @@
               p 
                 b Muestras integradas
 
-              p Este tipo de muestra consiste en la recolección de muestras simples en diferentes puntos de manera simultánea que posteriormente son mezcladas. En caso de presentarse variaciones de caudal en los puntos de muestreo, se debe tener en cuenta para que el volumen aportado sea proporcional al caudal medido durante la toma de la muestra. <i>(Instituto de hidrología, meteorología y estudios ambientales [Ideam]</i>, 2017).
+              p Este tipo de muestra consiste en la recolección de muestras simples en diferentes puntos de manera simultánea que posteriormente son mezcladas. En caso de presentarse variaciones de caudal en los puntos de muestreo, se debe tener en cuenta para que el volumen aportado sea proporcional al caudal medido durante la toma de la muestra. (Instituto de Hidrología, Meteorología y Estudios Ambientales [IDEAM], 2017).
 
             .col-md-6
               figure
@@ -98,7 +98,7 @@
 
               p Dentro de las muestras en serie se distinguen dos tipos, de perfil profundo y de área:
 
-              p <b>-De perfil profundo:</b> muy aplicables en oceanografía cuando el objetivo es conocer la variación vertical de un parámetro, por ejemplo, definir la posición de la capa termohalina, de la picnoclina, etc.
+              p <b>-“De perfil profundo:</b> muy aplicables en oceanografía cuando el objetivo es conocer la variación vertical de un parámetro, por ejemplo, definir la posición de la capa termohalina, de la picnoclina, etc.
 
               p <b>-De perfil de área:</b> serie de muestras de agua tomadas a una profundidad en particular, de una masa de agua en diversas locaciones; muy utilizadas para definir distribuciones espaciales por capas.” (Invemar, 2013, p. 14).
 
