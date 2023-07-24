@@ -299,7 +299,7 @@
           .row(titulo="3")
             .col-md-6
               figure.mb-3
-                img(src='@/assets/curso/temas/tema3/img26.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema3/img26.png', alt='Imágen decorativa')
               
             .col-md-6.mb-4.mb-md-0
               p En el caso de aguas profundas en el mar, lagos o ríos e incluso de aguas residuales que serán analizadas microbiológicamente, es recomendable usar dispositivos especializados como el muestreador ZoBell J-Z.
