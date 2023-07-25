@@ -325,9 +325,9 @@
                 h3.mb-1 Normas aplicadas
                 p Si es de su interés ampliar la información puede ir al material complementario y consultar el video sobre #[b las técnicas de muestreo en aguas residuales.]
               .col-sm-auto
-                a.boton.color-primario(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                  span.texto-negro Descargar
-                  i.fas.fa-file-download.texto-negro
+                a.boton.color-primario(href="https://www.youtube.com/watch_popup?v=JBu6RQ1QMD0" target="_blank")
+                  span.texto-negro <b>link</b>
+                  i.fas.fa-link.texto-negro
         
     .row.bg2-tema3-v2.align-items-center.mt-5(data-aos="fade-right")
       h4.text-white.mt-2 Técnicas de Manos Limpias (ML)/Manos Sucias (MS)
@@ -485,7 +485,7 @@
       p Para realizar el análisis microbiológico se recomienda tener en cuenta la cantidad de agua a muestrear, como se presenta en la siguiente tabla:  
 
     .titulo-sexto.color-acento-contenido(data-aos="fade-left")
-      h5 Tabla 1.
+      h5 Tabla 1
       br
       spam Tamaño de muestra según el tipo de agua a muestrear y ensayo a realizar
 

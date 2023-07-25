@@ -316,7 +316,7 @@ export default {
     },
     {
       referencia:
-        'Ministerio de Educación [MinEducacion]. (2015). Manual de normas de seguridad en el laboratorio de química y de física para experiencias seguras de aprendizaje en el laboratorio.',
+        'Ministerio de Educación [MinEducacion]. (2015). Orientaciones para la construcción en los establecimientos educativos del manual de normas de seguridad en el laboratorio de química y de física para experiencias seguras de aprendizaje en el laboratorio.',
       link:
         'https://www.mineducacion.gov.co/1759/articles-355749_recurso_normatividad.pdf',
     },
@@ -364,17 +364,12 @@ export default {
         {
           nombre: 'Xiomara Becerra Aldana',
           cargo: 'Instructora Ambiental',
-          centro: 'Centro de Gestión Industrial',
+          centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
         },
         {
           nombre: 'Lubin Andrés Hernández Sanabria',
-          cargo: 'Instructor',
-          centro: 'Centro de Gestión Industrial',
-        },
-        {
-          nombre: 'Jesús Ricardo Arias Munevar',
-          cargo: 'Instructor',
-          centro: 'Centro de Gestión Industrial',
+          cargo: 'Instructor - 2020',
+          centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
         },
         {
           nombre: 'Javier Ricardo Luna Pineda',
@@ -397,16 +392,22 @@ export default {
           centro: 'Centro Industrial del Diseño y la Manufactura',
         },
         {
-          nombre: 'Gloria Amparo López Escudero',
+          nombre: 'Gloria Lida Alzate Suarez',
           cargo: 'Adecuador Instruccional',
           centro:
-            'Centro de gestión de Mercados, Logística y Tecnologías de la Información',
+            'Centro de gestión de mercados, Logística y Tecnologías de la información - Regional Distrito Capital.',
         },
         {
           nombre: 'Alix Cecilia Chinchilla Rueda',
           cargo: 'Asesor metodológico',
           centro:
-            'Centro de gestión de Mercados, Logística y Tecnologías de la Información',
+            'Centro de gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
+        },
+        {
+          nombre: 'Liliana Victoria Morales Guadrón',
+          cargo: 'Responsable Línea de Producción Distrito Capital.',
+          centro:
+            'Centro de gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
         },
       ],
     },
@@ -414,20 +415,38 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Yuly Rey',
-          cargo: 'Diseñador web',
+          nombre: 'Yuly Andrea Rey Quiñones',
+          cargo: 'Diseño web-2023',
           centro:
             'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
           nombre: 'Manuel Felipe Echavarria Orozco',
-          cargo: 'Desarrollador Fullstack',
+          cargo: 'Desarrollador Fullstack - 2023',
           centro:
             'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
+          nombre: 'Jhon Jairo Urueta Álvarez',
+          cargo: 'Desarrollo Fullstack-2023',
+          centro:
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Lady Adriana Ariza Luque',
+          cargo: 'Animación y producción audiovisual',
+          centro:
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Laura Gisselle Murcia Pardo',
+          cargo: 'Animación y producción audiovisual',
+          centro:
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Ernesto Navarro Jaimes',
+          cargo: 'Animación y producción audiovisual',
           centro:
             'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
