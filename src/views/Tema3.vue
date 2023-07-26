@@ -258,7 +258,7 @@
 
         p En estos casos la muestra se debe tomar con un recipiente estéril en su interior y exterior. Tan pronto se va a tomar la muestra se debe retirar la envoltura protectora del recipiente y con la ayuda de una vara de muestreo se lleva a cabo la toma de muestra.
 
-        p Revise la siguiente infografía para identificar los casos en la toma de muestras de agua que se pueden aplicar.
+        p Revise el siguiente contenido para conocer indicaciones específicas de acuerdo al tipo de muestra que se vaya a recolectar:
 
     .row.mt-5
       .tarjeta.tarjeta-amarilla4.p-4
