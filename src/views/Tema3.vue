@@ -12,7 +12,7 @@
         .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img1.png')})`}"
-          )
+          )(alt="Imágen decorativa")
           .bloque-texto-g__texto.p-4
             p.mb-0 La actividad de análisis de muestras de agua se enfoca en la necesidad de mantener un monitoreo constante de los recursos hídricos, ya que las actividades del ser humano generan transformaciones ambientales que si no se miden no se lograrían dimensionar ni controlar.  
 
@@ -318,7 +318,7 @@
       .tarjeta.bgDescarga.p-3.mb-5
         .row.justify-content-around.align-items-center
           .col-3.col-sm-2.col-lg-1
-            img(src="@/assets/curso/temas/tema3/img27.svg")
+            img(src="@/assets/curso/temas/tema3/img27.svg",alt="Imágen decorativa")
           .col
             .row.justify-content-between.align-items-center
               .col.mb-3.mb-sm-0
@@ -326,7 +326,7 @@
                 p Si es de su interés ampliar la información puede ir al material complementario y consultar el video sobre #[b las técnicas de muestreo en aguas residuales.]
               .col-sm-auto
                 a.boton.color-primario(href="https://www.youtube.com/watch_popup?v=JBu6RQ1QMD0" target="_blank")
-                  span.texto-negro <b>link</b>
+                  span.texto-negro <b>Link</b>
                   i.fas.fa-link.texto-negro
         
     .row.bg2-tema3-v2.align-items-center.mt-5(data-aos="fade-right")
@@ -358,7 +358,7 @@
     ImagenInfografica.color-acento-contenido
       template(v-slot:imagen)
         figure
-          img(src='@/assets/curso/temas/tema3/img29.svg', alt='')
+          img(src='@/assets/curso/temas/tema3/img29.svg', alt='Técnicas de Manos limpias / Manos sucias. MS se encarga de todas las operaciones que relaciona con entrar en contacto con posibles fuentes de contaminación; por ejemplo, MS: trabaja exclusivamente en el exterior de las cámaras del procesamiento y preservación, prepara y opera el equipo de muestreo, incluidas las bombas y muestras discretas, el interruptor de bomba peristáltica, el controlador de bombas y el sistema distribuidor. ML se encarga de todas las operaciones que se relacionan con equipos que entran en contacto con la muestra; por ejemplo, ml: maneja la botella de la muestra de agua de superficie, maneja el extremo de descarga del tubo o la línea de la muestra de agua de superficie, transfiere la muestra al separador de embudo, prepara un espacio de trabajo limpio (dentro del vehículo), prepara las cámaras de procesamiento y preservación.')
 
       .tarjeta.tarjeta--blanca.p-3(x="17%" y="30.3%" numero="")
         .h5.mb-2 
@@ -394,7 +394,7 @@
       .tarjeta.bgDescarga.p-4.mb-5
         .row.justify-content-around.align-items-center
           .col-3.col-sm-2.col-lg-1
-            img(src="@/assets/curso/temas/tema3/img27.svg")
+            img(src="@/assets/curso/temas/tema3/img27.svg",alt="Imágen decorativa")
           .col
             .row.justify-content-between.align-items-center
               .col.mb-3.mb-sm-0
@@ -492,7 +492,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10(data-aos="flip-left")
         .tabla-a.color-azul
-          table
+          table(alt="Tabla 1. Tamaño de muestra según el tipo de agua a muestrear y ensayo a realizar, ensayo microbilógico, tipo de muestra y volumen de muestra.")
             thead
               tr
                 th Ensayo microbiológico
@@ -742,7 +742,7 @@
         p La forma de tomar la muestra y el punto de muestreo está condicionado al lugar de este, por eso se debe considerar algunas particularidades a la hora de realizar una actividad de muestreo, para Ferro (2020), en su libro denominado Perito en salud medioambiental, según las diferentes fuentes de agua las características del muestreo deben ser:
 
     TabsB.color-acento-contenido
-      .py-4.py-md-5(titulo="Pozos de agua" :icono="require('@/assets/curso/temas/tema3/img62.svg')")
+      .py-4.py-md-5(titulo="Pozos de agua" :icono="require('@/assets/curso/temas/tema3/img62.svg')")(alt="Imágen decorativa")
         .row
           .col-md-7.mb-4.mb-md-0
             p Extraer la muestra de agua sólo después que el pozo ha sido bombeado por lo menos durante 15 minutos para asegurar que la muestra representa la calidad de la fuente de agua subterránea.
@@ -751,7 +751,7 @@
             figure
               img(src='@/assets/curso/temas/tema3/img63.svg', alt='Imágen decorativa')
 
-      .py-4.py-md-5(titulo="Ríos y arroyos" :icono="require('@/assets/curso/temas/tema3/img64.svg')")
+      .py-4.py-md-5(titulo="Ríos y arroyos" :icono="require('@/assets/curso/temas/tema3/img64.svg')")(alt="Imágen decorativa")
         .row
           .col-md-7.mb-4.mb-md-0
             p Cuando se toman muestras de un río o un arroyo, los valores analíticos pueden variar con la profundidad, el caudal del arroyo y por la distancia a las orillas. Los cuidados a tener en cuenta en estos casos son: la muestra para que sea representativa debe ser recolectada a la mitad del área del flujo, independientemente de la modalidad del muestreo, tener presente las inundaciones repentinas, seleccionar el punto de muestreo cercano a una estación de aforo para relacionar el caudal del río con la muestra de agua, en el caso de puntos de muestreo situados en las proximidades de confluencias y descargas, los puntos de muestreo deberán estar ubicados a una distancia tal en que ambas aguas estén uniformemente mezcladas.
@@ -760,7 +760,7 @@
             figure
               img(src='@/assets/curso/temas/tema3/img65.svg', alt='Imágen decorativa')
 
-      .py-4.py-md-5(titulo="Lagos y reservorios" :icono="require('@/assets/curso/temas/tema3/img66.svg')")
+      .py-4.py-md-5(titulo="Lagos y reservorios" :icono="require('@/assets/curso/temas/tema3/img66.svg')")(alt="Imágen decorativa")
         .row
           .col-md-7.mb-4.mb-md-0
             p Estos tipos de cuerpos de agua están sujetos a considerables variaciones por causas normales tales como estratificación a causa de la radiación solar y la velocidad del viento y descargas de fuentes tributarias. Para determinar la representatividad de la calidad del agua en embalses, muchas veces se requiere la toma de muestras en más de una posición. Las ubicaciones dependen de los objetivos del programa de muestreo, el impacto de las fuentes locales de contaminación y el tamaño del cuerpo de agua (2020, p.1274).
@@ -834,7 +834,7 @@
       .tarjeta.bgDescarga.p-4.mb-5
         .row.justify-content-around.align-items-center
           .col-3.col-sm-2.col-lg-1
-            img(src="@/assets/curso/temas/tema3/img27.svg")
+            img(src="@/assets/curso/temas/tema3/img27.svg",alt="Imágen decorativa")
           .col
             .row.justify-content-between.align-items-center
               .col.mb-3.mb-sm-0

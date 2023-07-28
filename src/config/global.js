@@ -322,7 +322,7 @@ export default {
     },
     {
       referencia:
-        'Ministerio de Protección Social [MPS] y Ministerio de Ambiente Vivienda y Desarrollo Territorial [Mavdt]. (2008). Resolución 0811 de 2008 “Por medio del cual se definen los lineamientos a partir de los cuales la Autoridad Sanitaria y las Personas Prestadoras, concertadamente definirán en su área de influencia los lugares y puntos de muestreo para el control y la vigilancia de la calidad del agua para consumo humano en la red de distribución.',
+        'Ministerio de Protección Social [MPS] y Ministerio de Ambiente Vivienda y Desarrollo Territorial [Mavdt]. (2008). Resolución 0811 de 2008 “Por medio del cual se definen los lineamientos a partir de los cuales la Autoridad Sanitaria y las Personas Prestadoras, concertadamente definirán en su área de influencia los lugares y puntos de muestreo para el control y la vigilancia de la calidad del agua para consumo humano en la red de distribución."',
       link:
         'https://www.minvivienda.gov.co/sites/default/files/normativa/0811-%202008.pdf',
     },
@@ -401,12 +401,6 @@ export default {
         {
           nombre: 'Alix Cecilia Chinchilla Rueda',
           cargo: 'Asesor metodológico',
-          centro:
-            'Centro de gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
-        },
-        {
-          nombre: 'Liliana Victoria Morales Guadrón',
-          cargo: 'Responsable Línea de Producción Distrito Capital.',
           centro:
             'Centro de gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
         },

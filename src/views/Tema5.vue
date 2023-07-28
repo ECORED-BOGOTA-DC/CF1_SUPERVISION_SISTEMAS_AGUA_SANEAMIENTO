@@ -12,7 +12,7 @@
         .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema5/img1.svg')})`}"
-          )
+          )(alt="Imágen decorativa")
           .bloque-texto-g__texto.p-4
             p.mb-0 Uno de los ejes estratégicos para realizar un proceso de toma y tratamiento de muestras acorde a la normatividad es el recurso humano que realizará esa función, el cual debe contar con las habilidades y competencias necesarias, estas mismas son definidas dentro de un instrumento de planeación denominado plan de capacitación.  
 
@@ -189,7 +189,7 @@
       .tarjeta.bgDescarga.p-4.mb-5(data-aos="flip-up")
         .row.justify-content-around.align-items-center
           .col-3.col-sm-2.col-lg-1
-            img(src="@/assets/curso/temas/tema3/img27.svg")
+            img(src="@/assets/curso/temas/tema3/img27.svg",alt="Imágen decorativa")
           .col
             .row.justify-content-between.align-items-center
               .col.mb-3.mb-sm-0

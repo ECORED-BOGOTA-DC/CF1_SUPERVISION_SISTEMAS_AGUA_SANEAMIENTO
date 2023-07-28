@@ -193,7 +193,7 @@
       .tarjeta.bgDescarga.p-4.mb-5
         .row.justify-content-around.align-items-center
           .col-3.col-sm-2.col-lg-1
-            img(src="@/assets/curso/temas/tema3/img27.svg")
+            img(src="@/assets/curso/temas/tema3/img27.svg",alt="Imágen decorativa")
           .col
             .row.justify-content-between.align-items-center
               .col.mb-3.mb-sm-0
@@ -275,7 +275,7 @@
       .tarjeta.bgDescarga.p-4.mb-5
         .row.justify-content-around.align-items-center
           .col-3.col-sm-2.col-lg-1
-            img(src="@/assets/curso/temas/tema3/img27.svg")
+            img(src="@/assets/curso/temas/tema3/img27.svg",alt="Imágen decorativa")
           .col
             .row.justify-content-between.align-items-center
               .col.mb-3.mb-sm-0
