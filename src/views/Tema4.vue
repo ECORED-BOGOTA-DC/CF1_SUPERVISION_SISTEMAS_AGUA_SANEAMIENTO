@@ -31,32 +31,32 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-6.mb-5(data-aos="flip-right")
         .tarjeta.tarjeta-amarilla2.p-4
-          .row 
+          .row.justify-content-center.align-items-center
             figure.mb-4
               img(src='@/assets/curso/temas/tema4/img3.svg', alt='Imágen decorativa')
 
             h4 Vidrio
             p Las siguientes son las características que deben reunir los recipientes de vidrio para la toma de muestras, de acuerdo con el INS (2011):
 
-            .col-4.col-lg-2
+            .col-3.col-lg-2
               figure.my-3
                 img(src='@/assets/curso/temas/tema4/img4.svg', alt='Imágen decorativa')            
 
-            .col-lg-10
+            .col-9.col-lg-10
               p Deben ser resistentes a altas temperaturas, ya que deben ser esterilizados a temperaturas de 120ºC o 160ºC para garantizar que los recipientes están libres de microorganismos antes de la toma de la muestra.
 
-            .col-4.col-lg-2
+            .col-3.col-lg-2
               figure.my-3
                 img(src='@/assets/curso/temas/tema4/img5.svg', alt='Imágen decorativa')            
 
-            .col-lg-10
+            .col-9.col-lg-10
               p Deben ser de vidrios neutros para que durante el proceso de esterilización y de almacenamiento de la muestra no ocurran reacciones donde se liberan productos tóxicos que puedan afectar la viabilidad de los microorganismos presentes en la muestra.           
 
-            .col-4.col-lg-2
+            .col-3.col-lg-2
               figure.mb-3
                 img(src='@/assets/curso/temas/tema4/img6.svg', alt='Imágen decorativa')            
 
-            .col-lg-10
+            .col-9.col-lg-10
               p Deben tener tapa rosca, preferiblemente de plástico, con forros de silicona termo-resistentes (p. 34).
 
       .col-lg-6.mb-5(data-aos="flip-left")
@@ -189,22 +189,7 @@
     .row.mb-5
       p Ampliar la información con la NTC 5667-2 en cuanto a recipientes para muestras y en la NTC 6151.
 
-    .row.mb-5(data-aos="flip-down")
-      .tarjeta.bgDescarga.p-4.mb-5
-        .row.justify-content-around.align-items-center
-          .col-3.col-sm-2.col-lg-1
-            img(src="@/assets/curso/temas/tema3/img27.svg",alt="Imágen decorativa")
-          .col
-            .row.justify-content-between.align-items-center
-              .col.mb-3.mb-sm-0
-                p.texto-blanco Para reforzar las técnicas puede apoyarse de la ISO 5667-2 Gestión ambiental. Calidad del agua. Muestreo. Técnicas generales de muestreo.
 
-                p.texto-blanco Para ampliar la información acerca de los procedimientos de muestreo para el análisis de la calidad microbiológica del agua se recomienda consultar la norma técnica colombiana NTC 6151:2015. 
-
-              .col-sm-auto
-                a.boton.color-primario(href="https://www.ins.gov.co/sivicap/Documentacin%20SIVICAP" target="_blank")
-                  span.texto-negro Enlace
-                  i.fas.fa-link.texto-negro
 
     separador
     #t_4_2.titulo-segundo.color-acento-botones(data-aos="fade-right")
@@ -352,7 +337,7 @@
               figure
                 img(src='@/assets/curso/temas/tema4/img29.svg', alt='Imágen decorativa')
 
-    .row.bg1-tema3-v2.align-items-center.mb-5(data-aos="fade-right")
+    .row.bg4-tema4-v2.align-items-center.mb-5(data-aos="fade-right")
       h4.text-white.mt-2 Revisión y calibración de los equipos de muestreo
 
     .row.justify-content-center.align-items-center.mb-5
@@ -387,7 +372,7 @@
       .col-lg-10(data-aos="flip-up")
         .tarjeta-azul3.p-4
           .row.justify-content-center
-            .col-6.col-lg-3
+            .col-4.col-lg-3
               figure.mb-3
                 img(src='@/assets/curso/temas/tema4/img33.svg', alt='Imágen decorativa').img3-tm4
 

@@ -287,32 +287,31 @@ export default {
     },
     {
       referencia:
-        'Instituto de hidrología, meteorología y estudios ambientales [Ideam]. (2014). Guía para el monitoreo de vertimientos de aguas superficiales y subterráneas.',
+        'Instituto de Hidrología, Meteorología y Estudios Ambientales [IDEAM]. (2014). Guía para el monitoreo de vertimientos de aguas superficiales y subterráneas.',
       link:
         'http://www.corponor.gov.co/control_calidad/2014/Guia_monitoreo_IDEAM.pdf',
     },
     {
       referencia:
-        'Instituto de hidrología, meteorología y estudios ambientales [Ideam]. (s.f.). Glosario - Atención y participación ciudadana. Recuperado el 27 de mayo de 2020 de',
+        'Instituto de Hidrología, Meteorología y Estudios Ambientales [IDEAM]. (s.f.). Glosario - Atención y participación ciudadana. Recuperado el 27 de mayo de 2020 de',
       link:
         'http://www.ideam.gov.co/web/atencion-y-participacion-ciudadana/glosario',
     },
     {
       referencia:
-        'Instituto de investigaciones marinas y costeras [Invemar]. (2003). Manual de técnicas analíticas para la determinación de parámetros fisicoquímicos y contaminantes marinos. Aguas sedimentos y organismos. Cargraphics- Impresión digital.',
+        'Instituto de Investigaciones Marinas y costeras [INVEMAR]. (2003). Manual de técnicas analíticas para la determinación de parámetros fisicoquímicos y contaminantes marinos. Aguas sedimentos y organismos. Cargraphics- Impresión digital.',
       link:
         'http://www.invemar.org.co/redcostera1/invemar/docs/7010manualTecnicasanaliticas..pdf',
     },
     {
       referencia:
         'Instituto Nacional de Salud [INS]. (2011). Manual de instrucciones para la toma, preservación, transporte de muestras de agua para consumo humano para análisis de laboratorio. ISBN 978-958-13-0147-8.',
-      link: 'https://www.ins.gov.co/sivicap/Documentacin%20SIVICAP',
+      link: '',
     },
     {
       referencia:
         'Instituto Nacional de Tecnología Agropecuaria [INTA]. (2011). Protocolo de muestreo, transporte y conservación de muestras de agua con fines múltiples. Argentina. ',
-      link:
-        'https://inta.gob.ar/sites/default/files/script-tmp-protocolo_de_muestreo_de_aguas_inta.pdf',
+      link: '',
     },
     {
       referencia:
@@ -369,7 +368,7 @@ export default {
         },
         {
           nombre: 'Lubin Andrés Hernández Sanabria',
-          cargo: 'Instructor - 2020',
+          cargo: 'Instructor',
           centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
         },
         {
@@ -411,19 +410,19 @@ export default {
       autores: [
         {
           nombre: 'Yuly Andrea Rey Quiñones',
-          cargo: 'Diseño web-2023',
+          cargo: 'Diseño web',
           centro:
             'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
           nombre: 'Manuel Felipe Echavarria Orozco',
-          cargo: 'Desarrollador Fullstack - 2023',
+          cargo: 'Desarrollador Fullstack',
           centro:
             'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
           nombre: 'Jhon Jairo Urueta Álvarez',
-          cargo: 'Desarrollo Fullstack-2023',
+          cargo: 'Desarrollo Fullstack',
           centro:
             'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },

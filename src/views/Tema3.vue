@@ -100,7 +100,7 @@
 
               p <b>-De perfil profundo:</b> muy aplicables en oceanografía cuando el objetivo es conocer la variación vertical de un parámetro, por ejemplo, definir la posición de la capa termohalina, de la picnoclina, etc.
 
-              p <b>-De perfil de área:</b> serie de muestras de agua tomadas a una profundidad en particular, de una masa de agua en diversas locaciones; muy utilizadas para definir distribuciones espaciales por capas.” (Invemar, 2013, p. 14).
+              p <b>-De perfil de área:</b> serie de muestras de agua tomadas a una profundidad en particular, de una masa de agua en diversas locaciones; muy utilizadas para definir distribuciones espaciales por capas. (Invemar, 2013, p. 14).
 
             .col-md-6
               figure
@@ -319,8 +319,8 @@
           .col
             .row.justify-content-between.align-items-center
               .col.mb-3.mb-sm-0
-                h3.mb-1 Normas aplicadas
-                p Si es de su interés ampliar la información puede ir al material complementario y consultar el video sobre #[b las técnicas de muestreo en aguas residuales.]
+                h3.mb-1.texto-blanco Normas aplicadas
+                p.texto-blanco Si es de su interés ampliar la información puede ir al material complementario y consultar el video sobre #[b las técnicas de muestreo en aguas residuales.]
               .col-sm-auto
                 a.boton.color-primario(href="https://www.youtube.com/embed/UOBmZqSftJY" target="_blank")
                   span.texto-negro <b>Link</b>
