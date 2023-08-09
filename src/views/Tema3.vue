@@ -98,7 +98,7 @@
 
               p Dentro de las muestras en serie se distinguen dos tipos, de perfil profundo y de área:
 
-              p <b>-“De perfil profundo:</b> muy aplicables en oceanografía cuando el objetivo es conocer la variación vertical de un parámetro, por ejemplo, definir la posición de la capa termohalina, de la picnoclina, etc.
+              p <b>-De perfil profundo:</b> muy aplicables en oceanografía cuando el objetivo es conocer la variación vertical de un parámetro, por ejemplo, definir la posición de la capa termohalina, de la picnoclina, etc.
 
               p <b>-De perfil de área:</b> serie de muestras de agua tomadas a una profundidad en particular, de una masa de agua en diversas locaciones; muy utilizadas para definir distribuciones espaciales por capas.” (Invemar, 2013, p. 14).
 
@@ -249,11 +249,8 @@
       h4.text-white.mt-2 Muestreo por inmersión
 
     .row.justify-content-center.align-items-center.mt-5
-      .col-6.col-lg-3(data-aos="fade-down-right")
-        figure.mb-3
-          img(src='@/assets/curso/temas/tema3/img23.png', alt='Imágen decorativa')  
-          
-      .col-lg-9(data-aos="fade-up-left")
+        
+      .col-lg-12(data-aos="fade-up-left")
         p Se realiza cuando se requiere tomar muestras de profundidad por ejemplo, en el caso de muestreos de tanques de almacenamiento que no cuenten con dispositivos de muestras o en el agua de manantiales, pozos o  piscinas.
 
         p En estos casos la muestra se debe tomar con un recipiente estéril en su interior y exterior. Tan pronto se va a tomar la muestra se debe retirar la envoltura protectora del recipiente y con la ayuda de una vara de muestreo se lleva a cabo la toma de muestra.
@@ -325,7 +322,7 @@
                 h3.mb-1 Normas aplicadas
                 p Si es de su interés ampliar la información puede ir al material complementario y consultar el video sobre #[b las técnicas de muestreo en aguas residuales.]
               .col-sm-auto
-                a.boton.color-primario(href="https://www.youtube.com/watch_popup?v=JBu6RQ1QMD0" target="_blank")
+                a.boton.color-primario(href="https://www.youtube.com/embed/UOBmZqSftJY" target="_blank")
                   span.texto-negro <b>Link</b>
                   i.fas.fa-link.texto-negro
         
