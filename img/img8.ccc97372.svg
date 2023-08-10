@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="157" height="58" viewBox="0 0 157 58">
+  <g id="Grupo_1003491" data-name="Grupo 1003491" transform="translate(3471 9242)">
+    <rect id="Rectángulo_346615" data-name="Rectángulo 346615" width="157" height="58" rx="10" transform="translate(-3471 -9242)" fill="#fff"/>
+    <g id="Grupo_1002356" data-name="Grupo 1002356" transform="translate(29 -6)">
+      <text id="_Vc" data-name="                Vc" transform="translate(-3468 -9214)" fill="#12263f" font-size="18" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0" xml:space="preserve">                V</tspan><tspan y="0" font-size="10.499" baseline-shift="-5.999400079342301">c</tspan></text>
+      <text id="N_Q" data-name="N*Q" transform="translate(-3404 -9187)" fill="#12263f" font-size="18" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">N</tspan><tspan y="0" font-size="10.499" baseline-shift="5.999400079342301">*</tspan><tspan y="0">Q</tspan></text>
+      <line id="Línea_2409" data-name="Línea 2409" x2="29" transform="translate(-3404.5 -9204.5)" fill="none" stroke="#12263f" stroke-width="1"/>
+    </g>
+    <text id="Vp_Qp_" data-name="Vp = Qp *" transform="translate(-3460 -9206)" fill="#12263f" font-size="18" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">Vp = Qp *</tspan></text>
+  </g>
+</svg>
